@@ -6,6 +6,7 @@ import {
   FaCircle,
   FaCalendar,
 } from "react-icons/fa";
+import gameJamImage from "../../../public/images/gamejam.jpg";
 
 function Header() {
   return (
@@ -84,10 +85,7 @@ function Header() {
         </div>
         <div className={styles.rightSide}>
           <div className={styles.imageContainer}>
-            <img
-              src="https://r.resimlink.com/WPswY96t.png"
-              alt="akdeniz game jam"
-            />
+            <img src={gameJamImage} alt="akdeniz game jam" />
             <div className={styles.nextEventContainer}>
               <div className={styles.nextEventIcon}>
                 <FaCalendar />
