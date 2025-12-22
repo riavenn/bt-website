@@ -7,6 +7,9 @@ import {
   FaCalendar,
 } from "react-icons/fa";
 import gameJamImage from "../../../public/images/gamejam.jpg";
+import avatar from "../../../public/images/avatar.jpg";
+import avatar2 from "../../../public/images/avatar2.jpg";
+import avatar3 from "../../../public/images/avatar3.jpg";
 
 function Header() {
   return (
@@ -55,28 +58,13 @@ function Header() {
           <div className={styles.activeMembersContainer}>
             <div className={styles.activeMemberAvatars}>
               <div className={styles.firstActiveMemberAvatar}>
-                <img
-                  src="https://picsum.photos/seed/student1/100/100"
-                  alt="active-member"
-                  width={30}
-                  height={30}
-                />
+                <img src={avatar} alt="active-member" width={30} height={30} />
               </div>
               <div className={styles.activeMemberAvatar}>
-                <img
-                  src="https://picsum.photos/seed/student2/100/100"
-                  alt="active-member"
-                  width={30}
-                  height={30}
-                />
+                <img src={avatar2} alt="active-member" width={30} height={30} />
               </div>
               <div className={styles.activeMemberAvatar}>
-                <img
-                  src="https://picsum.photos/seed/student3/100/100"
-                  alt="active-member"
-                  width={30}
-                  height={30}
-                />
+                <img src={avatar3} alt="active-member" width={30} height={30} />
               </div>
               <div className={styles.lastActiveMemberAvatar}>+1000</div>
             </div>
