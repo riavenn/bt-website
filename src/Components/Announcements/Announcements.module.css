@@ -1,0 +1,134 @@
+.container {
+  margin: 80px 250px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.description {
+  font-size: 1rem;
+  color: var(--text-gray);
+}
+
+.textContainer {
+  color: white;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--surface-dark);
+  border-radius: 2.5rem;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  box-shadow: var(--box-shadow-secondary);
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  box-shadow: var(--box-shadow-primary);
+  transition: all 0.5s ease;
+}
+
+.cardTop {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 2.5rem;
+}
+
+.category {
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  padding: 6px;
+  width: 60px;
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border-radius: 9999px;
+}
+
+.cardBottom {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-gray);
+}
+
+.dateIcon {
+  font-size: 1rem;
+}
+
+.dateText {
+  font-size: 0.75rem;
+}
+
+.cardTitle {
+  font-weight: bold;
+}
+
+.cardDescription {
+  color: var(--text-gray);
+  font-size: 0.75rem;
+}
+
+.cardDetails {
+  text-align: center;
+  background-color: rgb(31, 41, 55, 1);
+  padding: 10px;
+  border-radius: 1.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+  transition: all 0.5s ease;
+}
+
+.cardDetails:hover {
+  background-color: var(--secondary-color);
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    margin-top: 50px;
+  }
+  .cardsContainer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+}

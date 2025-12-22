@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #ff8c00;
+  --secondary-color: #001f3f;
+  --background-dark: #0a0f14;
+  --surface-dark: #121a21;
+  --brand-green: #38e07b;
+  --brand-navy: #1c2a33;
+  --text-gray: rgb(156, 163, 175, 1);
+  --text-blue: rgb(219, 234, 254, 1);
+  --box-shadow-primary: 0 5px 10px var(--primary-color);
+  --box-shadow-secondary: 0 5px 10px var(--secondary-color);
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

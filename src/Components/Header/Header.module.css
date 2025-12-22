@@ -1,0 +1,238 @@
+.container {
+  margin: 80px 250px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: white;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(0 31 63 / 0.4);
+  width: fit-content;
+  padding: 10px;
+  border-radius: calc(infinity * 1px);
+  text-align: center;
+}
+
+.notificationText {
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: rgb(191, 219, 254, 1);
+}
+
+.notificationIcon {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: var(--primary-color);
+}
+
+.title {
+  width: 600px;
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.coloredTitle {
+  color: var(--primary-color);
+}
+
+.description {
+  width: 500px;
+  line-height: 1.625;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.joinCommunityButtonContainer,
+.videoButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0.75rem;
+  border-radius: calc(infinity * 1px);
+  width: 150px;
+  color: white;
+}
+
+.joinCommunityButtonContainer {
+  background-color: rgb(0 31 63 / 0.4);
+  transition: all 0.5s ease;
+}
+
+.joinCommunityButtonContainer:hover {
+  background-color: var(--primary-color);
+  transition: all 0.5s ease;
+}
+
+.joinCommunityButton,
+.videoButton {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.videoButtonContainer {
+  border: 1px solid rgb(55, 65, 81, 1);
+  transition: all 0.5s ease;
+}
+
+.videoButtonContainer:hover {
+  background-color: var(--primary-color);
+  transition: all 0.5s ease;
+}
+
+.joinCommunityButtonIcon,
+.videoButtonIcon {
+  display: flex;
+  align-items: center;
+}
+
+.joinCommunityButtonIcon {
+  font-size: 10px;
+}
+
+.videoButtonIcon {
+  font-size: 1.25rem;
+}
+
+.activeMembersContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.activeMemberAvatars {
+  display: flex;
+}
+
+.activeMemberAvatar {
+  content: "";
+}
+
+.firstActiveMemberAvatar img {
+  border-radius: 50%;
+}
+
+.activeMemberAvatar img {
+  border-radius: 50%;
+}
+
+.lastActiveMemberAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 31, 63, 1);
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+}
+
+.activeMembersText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+.rightSide {
+  width: 550px;
+  height: 550px;
+}
+
+.imageContainer {
+  border: 5px solid rgb(18, 26, 33, 1);
+  border-radius: 0.75rem;
+  transform: rotateZ(2deg);
+  transition: transform ease 0.5s;
+  position: relative;
+}
+
+.imageContainer:hover {
+  transform: rotateZ(0deg);
+  transition: transform ease 0.5s;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.nextEventContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
+  background-color: rgb(18 26 33 / 0.9);
+  padding: 15px;
+  width: 80%;
+  border-radius: 1rem;
+}
+
+.nextEventIcon {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+.nextEventText {
+  color: white;
+  line-height: 1.4;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.coloredText {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+  }
+  .title {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .description {
+    width: 100%;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .rightSide {
+    margin-top: 30px;
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+}

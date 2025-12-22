@@ -1,0 +1,135 @@
+/* Genel Kapsayıcı */
+.container {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: var(--surface-dark);
+  width: 1000px;
+  margin: auto;
+  border-radius: 50px; /* Modern görünüm için sabit değer */
+  padding: 8px 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbarLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Linkler */
+.navbarLinks {
+  margin: auto;
+  display: flex;
+  gap: 35px;
+  font-weight: bold;
+}
+
+.navLink {
+  color: #cbcbcb;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.active {
+  color: var(--primary-color) !important;
+}
+
+.navLink:hover {
+  color: var(--primary-color);
+}
+
+.joinButton {
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.joinButton:hover {
+  background-color: var(--secondary-color);
+}
+
+.desktopJoinContainer {
+  display: block;
+}
+
+.mobileJoinButton {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .desktopJoinContainer {
+    display: none;
+  }
+
+  .navbarLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: var(--surface-dark);
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    z-index: 999;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+  }
+
+  .navActive {
+    display: flex;
+  }
+
+  .mobileJoinButton {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .barActive:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .barActive:nth-child(2) {
+    opacity: 0;
+  }
+  .barActive:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}

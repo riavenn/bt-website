@@ -1,0 +1,8 @@
+.container {
+  background-color: var(--background-dark);
+  height: 100%;
+}
+
+.navbar{
+  padding: 20px;
+}
