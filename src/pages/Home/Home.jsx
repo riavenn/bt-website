@@ -6,7 +6,6 @@ import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import Whatwedo from "../../Components/Whatwedo/Whatwedo";
 import styles from "../Home/Home.module.css";
-import { FaUsers } from "react-icons/fa";
 
 function Home() {
   return (

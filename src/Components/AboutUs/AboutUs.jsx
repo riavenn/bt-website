@@ -1,5 +1,6 @@
 import styles from "../AboutUs/AboutUs.module.css";
 import { FiTarget } from "react-icons/fi";
+import ekip from "../../../public/images/ekip.jpg";
 
 function AboutUs() {
   return (
@@ -34,7 +35,10 @@ function AboutUs() {
           </div>
         </div>
         <div className={styles.rightContent}>
-          <div className={styles.imageContainer}></div>
+          <div
+            className={styles.imageContainer}
+            style={{ backgroundImage: `url(${ekip})` }}
+          />
         </div>
       </div>
     </div>
