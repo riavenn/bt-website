@@ -1,0 +1,9 @@
+.container {
+  margin: var(--margin-container);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: var(--margin-lg);
+  }
+}

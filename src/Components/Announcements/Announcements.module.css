@@ -1,11 +1,11 @@
 .container {
-  margin: 80px 250px;
+  margin: var(--margin-container);
 }
 
 .mainContent {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: var(--gap-lg);
 }
 
 .title {
@@ -25,17 +25,17 @@
 
 .cardsContainer {
   display: flex;
-  gap: 30px;
+  gap: var(--gap-xxl);
   justify-content: center;
   align-items: center;
 }
 
 .card {
   background-color: var(--surface-dark);
-  border-radius: 2.5rem;
+  border-radius: calc(2 * var(--border-radius-xl));
   width: 100%;
   height: 100%;
-  padding: 1rem;
+  padding: var(--padding-md);
   box-shadow: var(--box-shadow-secondary);
   transition: all 0.5s ease;
 }
@@ -46,42 +46,28 @@
 }
 
 .cardTop {
-  position: relative;
+  content: "";
 }
 
 .image {
   width: 100%;
   height: 100%;
   background-size: cover;
-  border-radius: 2.5rem;
-}
-
-.category {
-  position: absolute;
-  left: 5%;
-  top: 3%;
-  padding: 6px;
-  width: 60px;
-  color: white;
-  text-align: center;
-  font-size: 0.75rem;
-  font-weight: bold;
-  background-color: var(--primary-color);
-  border-radius: 9999px;
+  border-radius: calc(2 * var(--border-radius-xl));
 }
 
 .cardBottom {
-  padding: 1rem;
+  padding: var(--padding-md);
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: var(--gap-lg);
   color: white;
 }
 
 .date {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: var(--gap-sm);
   color: var(--text-gray);
 }
 
@@ -105,8 +91,8 @@
 .cardDetails {
   text-align: center;
   background-color: rgb(31, 41, 55, 1);
-  padding: 10px;
-  border-radius: 1.5rem;
+  padding: var(--padding-sm);
+  border-radius: var(--border-radius-lg);
   color: white;
   font-weight: bold;
   font-size: 0.75rem;
@@ -120,14 +106,13 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: 20px;
-    margin-top: 50px;
+    margin: var(--margin-lg);
+    margin-top: var(--margin-xl);
   }
   .cardsContainer {
     flex-direction: column;
-    padding: 1rem;
+    padding: var(--padding-md);
   }
-
   .title {
     font-size: 1.25rem;
   }

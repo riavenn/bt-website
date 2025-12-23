@@ -11,7 +11,6 @@ function AnnouncementsCards() {
       {cardData.map((card, index) => (
         <div key={index} className={styles.card}>
           <div className={styles.cardTop}>
-            <div className={styles.category}>{card.category}</div>
             <img src={card.imageUrl} className={styles.image}></img>
           </div>
           <div className={styles.cardBottom}>
@@ -35,7 +34,6 @@ function AnnouncementsCards() {
 
 const cardData = [
   {
-    category: "BAŞVURU",
     imageUrl: yazilimTestUzmanligi,
     dateText: "24 Ekim 2023",
     title: "Yazılım Test Uzmanlığı Eğitimi",
@@ -43,7 +41,6 @@ const cardData = [
       "Python ile veri bilimine giriş yapacağımız workshop için kayıtlar başladı. Kontenjan sınırlı!",
   },
   {
-    category: "ETKİNLİK",
     imageUrl: tanismaEtkinligi,
     dateText: "29 Eylül 2024",
     title: "Güz Dönemi Tanışma Etkinliği",
@@ -51,7 +48,6 @@ const cardData = [
       "Yeni üyelerimizle tanışmak ve dönemin yorgunluğunu atmak için kampüs ormanında buluşuyoruz.",
   },
   {
-    category: "ETKİNLİK",
     imageUrl: solanaEvent,
     dateText: "25 Ekim 2025",
     title: "Solana Türkiye Antalya Buluşması",

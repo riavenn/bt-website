@@ -54,6 +54,14 @@ function Navbar() {
             }>
             Etkinlikler
           </NavLink>
+          <NavLink
+            to="/ekip"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? `${styles.navLink} ${styles.active}` : styles.navLink
+            }>
+            Ekip
+          </NavLink>
 
           <div className={styles.mobileJoinButton}>
             <Link to="http://mediko.akdeniz.edu.tr/topluluk/" target="_blank">

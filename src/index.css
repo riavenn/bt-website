@@ -9,6 +9,30 @@
   --text-blue: rgb(219, 234, 254, 1);
   --box-shadow-primary: 0 5px 10px var(--primary-color);
   --box-shadow-secondary: 0 5px 10px var(--secondary-color);
+  --margin-container: 80px 250px;
+  --gap-sm: 4px;
+  --gap-md: 8px;
+  --gap-lg: 16px;
+  --gap-xl: 24px;
+  --gap-xxl: 32px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 24px;
+  --border-radius-full: 9999px;
+  --padding-xs: 4px;
+  --padding-sm: 8px;
+  --padding-md: 16px;
+  --padding-lg: 24px;
+  --padding-xl: 48px;
+  --padding-xxl: 64px;
+  --padding-xs: 4px;
+  --margin-xs: 4px;
+  --margin-sm: 8px;
+  --margin-md: 16px;
+  --margin-lg: 24px;
+  --margin-xl: 48px;
+  --margin-xxl: 64px;
 }
 
 body {

@@ -10,8 +10,8 @@
   background-color: var(--surface-dark);
   width: 1000px;
   margin: auto;
-  border-radius: 50px; /* Modern görünüm için sabit değer */
-  padding: 8px 20px;
+  border-radius: calc(2 * var(--border-radius-xl));
+  padding: var(--padding-sm) var(--padding-lg);
   position: relative;
   transition: all 0.3s ease;
 }
@@ -25,14 +25,14 @@
 .navbarLinks {
   margin: auto;
   display: flex;
-  gap: 35px;
+  gap: var(--gap-xxl);
   font-weight: bold;
 }
 
 .navLink {
   color: #cbcbcb;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
@@ -48,8 +48,8 @@
   border: none;
   background-color: var(--primary-color);
   color: white;
-  padding: 8px 20px;
-  border-radius: 50px;
+  padding: var(--padding-sm) var(--padding-lg);
+  border-radius: calc(2 * var(--border-radius-xl));
   cursor: pointer;
   font-weight: bold;
   transition: all 0.5s ease;
@@ -70,7 +70,7 @@
 .hamburger {
   display: none;
   flex-direction: column;
-  gap: 5px;
+  gap: var(--gap-sm);
   cursor: pointer;
 }
 
@@ -78,7 +78,7 @@
   width: 25px;
   height: 3px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: var(--border-radius-sm);
   transition: 0.3s;
 }
 
@@ -106,9 +106,9 @@
     left: 0;
     width: 100%;
     background-color: var(--surface-dark);
-    padding: 20px;
-    border-radius: 20px;
-    gap: 20px;
+    padding: var(--padding-lg);
+    border-radius: var(--border-radius-xl);
+    gap: var(--gap-lg);
     z-index: 999;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     width: 90%;
@@ -120,7 +120,7 @@
 
   .mobileJoinButton {
     display: block;
-    margin-top: 10px;
+    margin-top: var(--margin-sm);
   }
 
   .barActive:nth-child(1) {

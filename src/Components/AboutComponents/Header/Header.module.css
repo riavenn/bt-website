@@ -1,0 +1,13 @@
+.container {
+  margin: var(--margin-container);
+}
+
+.line {
+  width: 50px;
+  height: 1px;
+  background-color: var(--primary-color);
+}
+
+.subTitle {
+  background-color: var(--primary-color);
+}

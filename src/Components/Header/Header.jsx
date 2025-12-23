@@ -58,13 +58,13 @@ function Header() {
           <div className={styles.activeMembersContainer}>
             <div className={styles.activeMemberAvatars}>
               <div className={styles.firstActiveMemberAvatar}>
-                <img src={avatar} alt="active-member" width={30} height={30} />
+                <img src={avatar} alt="active-member" width={35} height={35} />
               </div>
               <div className={styles.activeMemberAvatar}>
-                <img src={avatar2} alt="active-member" width={30} height={30} />
+                <img src={avatar2} alt="active-member" width={35} height={35} />
               </div>
               <div className={styles.activeMemberAvatar}>
-                <img src={avatar3} alt="active-member" width={30} height={30} />
+                <img src={avatar3} alt="active-member" width={35} height={35} />
               </div>
               <div className={styles.lastActiveMemberAvatar}>+1000</div>
             </div>

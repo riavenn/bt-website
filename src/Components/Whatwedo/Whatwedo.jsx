@@ -5,6 +5,7 @@ import { MdCelebration } from "react-icons/md";
 import { IoGameController } from "react-icons/io5";
 import { FaLightbulb } from "react-icons/fa";
 import { IoRocketSharp } from "react-icons/io5";
+import Cards from "../Cards/Cards";
 
 const cardData = [
   {
@@ -45,22 +46,6 @@ const cardData = [
   },
 ];
 
-function Card() {
-  return (
-    <div className={styles.cardContainer}>
-      {cardData.map((card, index) => (
-        <>
-          <div key={index} className={styles.card}>
-            <div className={styles.cardIcon}>{card.icon}</div>
-            <div className={styles.cardTitle}>{card.title}</div>
-            <div className={styles.cardDescription}>{card.description}</div>
-          </div>
-        </>
-      ))}
-    </div>
-  );
-}
-
 function Whatwedo() {
   return (
     <div className={styles.container}>
@@ -74,7 +59,7 @@ function Whatwedo() {
             sağlayan temel etkinlik türlerimiz.
           </div>
         </div>
-        <Card />
+        <Cards cardData={cardData} />
       </div>
     </div>
   );

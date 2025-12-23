@@ -1,13 +1,13 @@
 .container {
-  margin: 80px 250px;
+  margin: var(--margin-container);
 }
 
 .cardContent {
   display: flex;
-  gap: 50px;
+  gap: calc(2 * var(--gap-xl));
   background-color: var(--surface-dark);
-  padding: 3rem;
-  border-radius: 40px;
+  padding: var(--padding-xl);
+  border-radius: calc(2 * var(--border-radius-xl));
   border: 1px solid rgb(31, 41, 55, 1);
   overflow: hidden;
   box-shadow: var(--box-shadow-secondary);
@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
+  gap: var(--gap-xl);
 }
 
 .topTitle {
@@ -51,7 +51,7 @@
 
 .missionContainer {
   display: flex;
-  gap: 1.5rem;
+  gap: var(--gap-xl);
 }
 
 .iconContainer {
@@ -61,8 +61,8 @@
 .icon {
   display: flex;
   align-items: center;
-  padding: 0.75rem;
-  border-radius: 30px;
+  padding: var(--padding-md);
+  border-radius: var(--border-radius-xl);
   font-size: 18px;
   color: rgb(147, 197, 253, 1);
   background-color: rgb(30 58 138 / 0.2);
@@ -71,7 +71,7 @@
 .missionTextContainer {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--gap-md);
 }
 
 .missionTitle {
@@ -88,9 +88,9 @@
   height: 500px;
   background-size: cover;
   background-position: center;
-  border-radius: 40px;
-  padding: 1.5rem;
-  gap: 6px;
+  border-radius: calc(2 * var(--border-radius-md));
+  padding: var(--padding-lg);
+  gap: var(--gap-md);
   position: relative;
 }
 
@@ -107,20 +107,26 @@
     transparent 100%
   );
   z-index: 1;
-  border-radius: 40px;
+  border-radius: calc(2 * var(--border-radius-md));
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
   .container {
-    margin: 20px;
-    margin-top: 50px;
+    margin: var(--margin-lg);
+    margin-top: var(--margin-xl);
   }
   .cardContent {
     flex-direction: column;
-    padding: 2rem;
+    padding: calc(2 * var(--padding-md));
   }
   .leftContent {
-    gap: 1rem;
+    gap: var(--gap-lg);
   }
   .title {
     font-size: 1.5rem;
@@ -129,11 +135,10 @@
     text-align: left;
   }
   .missionContainer {
-    /* flex-direction: column; */
+    content: "";
   }
   .imageContainer {
     width: 300px;
     height: 300px;
-    padding: 0;
   }
 }

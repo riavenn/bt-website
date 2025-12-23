@@ -1,0 +1,12 @@
+.container {
+  background-color: var(--background-dark);
+  height: 2000px;
+}
+
+.mainContent {
+  margin: var(--margin-container);
+}
+
+.navbar {
+  padding: var(--padding-lg);
+}

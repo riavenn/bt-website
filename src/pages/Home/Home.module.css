@@ -3,6 +3,6 @@
   height: 100%;
 }
 
-.navbar{
-  padding: 20px;
+.navbar {
+  padding: var(--padding-lg);
 }
