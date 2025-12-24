@@ -1,10 +1,11 @@
 .container {
-  content: "";
+  margin: var(--margin-container);
 }
 
 .mainContent {
   display: flex;
   flex-direction: column;
+  gap: var(--gap-xl);
 }
 
 .textContainer {
@@ -36,7 +37,6 @@
 .cardContainer {
   display: flex;
   gap: var(--gap-lg);
-  margin: var(--margin-container);
 }
 
 .card {
@@ -119,4 +119,26 @@
   z-index: 2;
   margin-left: auto;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+    margin-top: var(--margin-xl);
+  }
+  .mainContent {
+    flex-direction: column;
+    margin: var(--margin-md);
+  }
+  .cardContainer {
+    flex-direction: column;
+    gap: var(--gap-xxl);
+  }
+  .card {
+    width: 310px;
+    height: 350px;
+  }
+  .description {
+    text-align: center;
+  }
 }

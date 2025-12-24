@@ -103,3 +103,13 @@
   height: 100%;
   border-radius: var(--border-radius-lg);
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
+  .mainContent {
+    flex-direction: column;
+    margin: var(--margin-md);
+  }
+}

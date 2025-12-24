@@ -1,6 +1,7 @@
 import Header from "../../Components/AboutComponents/Header/Header";
 import MissionAndVision from "../../Components/AboutComponents/MissionAndVision/MissionAndVision";
 import Team from "../../Components/AboutComponents/Team/Team";
+import Footer from "../../Components/HomeComponents/Footer/Footer";
 import Navbar from "../../Components/HomeComponents/Navbar/Navbar";
 import styles from "../About/About.module.css";
 
@@ -18,6 +19,9 @@ function About() {
       </div>
       <div className={styles.team}>
         <Team />
+      </div>
+      <div className={styles.footer}>
+        <Footer />
       </div>
     </div>
   );
