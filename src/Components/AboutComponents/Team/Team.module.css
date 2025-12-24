@@ -1,0 +1,122 @@
+.container {
+  content: "";
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-md);
+}
+
+.subTitle {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.description {
+  color: var(--text-gray);
+  font-size: 1rem;
+}
+
+.cardContainer {
+  display: flex;
+  gap: var(--gap-lg);
+  margin: var(--margin-container);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  padding: var(--padding-lg);
+  gap: var(--gap-lg);
+  border-radius: var(--border-radius-lg);
+  color: white;
+  background-color: var(--surface-dark);
+  box-shadow: var(--box-shadow-secondary);
+  position: relative;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: var(--box-shadow-primary);
+  transition: box-shadow 0.3s ease, transform 0.5s ease;
+  transform: translateY(-10px);
+}
+
+.card:hover .cardIcon {
+  transform: rotate(360deg);
+  transition: transform 0.5s ease;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(
+    to top,
+    var(--secondary-color) 0%,
+    transparent 100%
+  );
+  z-index: 1;
+  border-radius: var(--border-radius-lg);
+}
+
+.cardImage {
+  width: 200px;
+  align-self: center;
+  margin-top: 1.5rem;
+}
+
+.cardIcon {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: var(--border-radius-full);
+  background-color: var(--primary-color);
+  padding: var(--padding-sm);
+  width: fit-content;
+  transition: transform 0.5s;
+  z-index: 2;
+}
+
+.cardTitleAndIcon {
+  display: flex;
+  gap: var(--gap-md);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.cardTitleIcon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  margin-left: auto;
+  color: white;
+}

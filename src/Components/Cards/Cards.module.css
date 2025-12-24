@@ -18,12 +18,16 @@
   padding: var(--padding-lg);
   border: 1px solid rgb(31, 41, 55, 1);
   box-shadow: var(--box-shadow-secondary);
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.5s ease;
 }
 
 .card:hover {
   box-shadow: var(--box-shadow-primary);
   transition: box-shadow 0.3s ease;
+}
+
+.card:hover .icon {
+  transform: rotate(360deg);
 }
 
 .icon {
@@ -35,6 +39,7 @@
   background-color: var(--primary-color);
   padding: var(--padding-sm);
   width: fit-content;
+  transition: transform 0.5s ease;
 }
 
 .title {

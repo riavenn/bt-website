@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import styles from "../Announcements/Announcements.module.css";
+import styles from "./Announcements.module.css";
 import { CiCalendar } from "react-icons/ci";
-import yazilimTestUzmanligi from "../../../public/images/yazilim-test-uzmanligi.jpg";
-import tanismaEtkinligi from "../../../public/images/tanisma-etkinligi.jpg";
-import solanaEvent from "../../../public/images/solanaEvent.jpg";
+import yazilimTestUzmanligi from "../../../../public/images/yazilim-test-uzmanligi.jpg";
+import tanismaEtkinligi from "../../../../public/images/tanisma-etkinligi.jpg";
+import solanaEvent from "../../../../public/images/solanaEvent.jpg";
 
 function AnnouncementsCards() {
   return (

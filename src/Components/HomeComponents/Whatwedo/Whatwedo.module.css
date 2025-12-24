@@ -7,6 +7,7 @@
   background-color: rgb(8, 18, 26, 1);
   padding: var(--padding-xl);
   border-radius: var(--border-radius-xl);
+  box-shadow: var(--box-shadow-secondary);
 }
 
 .textContainer {

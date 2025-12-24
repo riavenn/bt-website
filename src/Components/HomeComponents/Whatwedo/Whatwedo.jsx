@@ -1,11 +1,11 @@
-import styles from "../Whatwedo/Whatwedo.module.css";
+import styles from "./Whatwedo.module.css";
 import { MdEventNote } from "react-icons/md";
 import { GiGraduateCap } from "react-icons/gi";
 import { MdCelebration } from "react-icons/md";
 import { IoGameController } from "react-icons/io5";
 import { FaLightbulb } from "react-icons/fa";
 import { IoRocketSharp } from "react-icons/io5";
-import Cards from "../Cards/Cards";
+import Cards from "../../Cards/Cards";
 
 const cardData = [
   {

@@ -1,5 +1,5 @@
 import styles from "../Footer/Footer.module.css";
-import logo from "../../assets/logo.png";
+import logo from "../../../assets/logo.png";
 import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaLocationDot } from "react-icons/fa6";
@@ -48,6 +48,7 @@ function Footer() {
           <div className={styles.title}>Hızlı Erişim</div>
           <div className={styles.links}>
             <div className={styles.link}>Ana Sayfa</div>
+            <div className={styles.link}>Hakkımızda</div>
             <div className={styles.link}>Etkinlik Takvimi</div>
             <div className={styles.link}>İletişim</div>
           </div>
@@ -56,6 +57,7 @@ function Footer() {
           <div className={styles.title}>Topluluk</div>
           <div className={styles.links}>
             <div className={styles.link}>Yönetim Kurulu</div>
+            <div className={styles.link}>Departmanlarımız</div>
             <div className={styles.link}>Tüzük</div>
             <div className={styles.link}>Üyelik formu</div>
           </div>

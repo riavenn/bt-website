@@ -1,11 +1,10 @@
-import AboutUs from "../../Components/AboutUs/AboutUs";
-import Announcements from "../../Components/Announcements/Announcements";
-import Cards from "../../Components/Cards/Cards";
-import FeatureCards from "../../Components/FeatureCards/FeatureCards";
-import Footer from "../../Components/Footer/Footer";
-import Header from "../../Components/Header/Header";
-import Navbar from "../../Components/Navbar/Navbar";
-import Whatwedo from "../../Components/Whatwedo/Whatwedo";
+import AboutUs from "../../Components/HomeComponents/AboutUs/AboutUs";
+import Announcements from "../../Components/HomeComponents/Announcements/Announcements";
+import FeatureCards from "../../Components/HomeComponents/FeatureCards/FeatureCards";
+import Footer from "../../Components/HomeComponents/Footer/Footer";
+import Header from "../../Components/HomeComponents/Header/Header";
+import Navbar from "../../Components/HomeComponents/Navbar/Navbar";
+import Whatwedo from "../../Components/HomeComponents/Whatwedo/Whatwedo";
 import styles from "../Home/Home.module.css";
 
 function Home() {

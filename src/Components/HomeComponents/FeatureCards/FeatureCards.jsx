@@ -1,6 +1,6 @@
 import { FaUsers } from "react-icons/fa";
-import Cards from "../Cards/Cards";
-import styles from "../FeatureCards/FeatureCards.module.css";
+import Cards from "../../Cards/Cards";
+import styles from "./FeatureCards.module.css";
 import { IoRocketSharp } from "react-icons/io5";
 import { MdCelebration } from "react-icons/md";
 

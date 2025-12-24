@@ -1,6 +1,6 @@
 .container {
   background-color: var(--background-dark);
-  height: 2000px;
+  height: 100%;
 }
 
 .mainContent {
