@@ -1,0 +1,7 @@
+.container {
+  background-color: var(--background-dark);
+}
+
+.navbar {
+  padding: var(--padding-lg);
+}

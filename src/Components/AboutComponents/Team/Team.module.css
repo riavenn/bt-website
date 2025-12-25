@@ -46,6 +46,7 @@
   height: 350px;
   padding: var(--padding-lg);
   gap: var(--gap-lg);
+  border: 1px solid rgb(31, 41, 55, 1);
   border-radius: var(--border-radius-lg);
   color: white;
   background-color: var(--surface-dark);
@@ -84,7 +85,6 @@
 .cardImage {
   width: 200px;
   align-self: center;
-  margin-top: 1.5rem;
 }
 
 .cardIcon {
@@ -104,6 +104,8 @@
 .cardTitleAndIcon {
   display: flex;
   gap: var(--gap-md);
+  min-height: 50px;
+  align-items: center;
 }
 
 .cardTitle {
@@ -140,5 +142,8 @@
   }
   .description {
     text-align: center;
+  }
+  .cardTitleAndIcon {
+    min-height: 0;
   }
 }

@@ -9,6 +9,7 @@
   --text-blue: rgb(219, 234, 254, 1);
   --box-shadow-primary: 0 5px 10px var(--primary-color);
   --box-shadow-secondary: 0 5px 10px var(--secondary-color);
+  --box-shadow-green: 0 4px 14px 0 var(--brand-green);
   --margin-container: 80px 250px;
   --gap-sm: 4px;
   --gap-md: 8px;

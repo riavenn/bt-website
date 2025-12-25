@@ -3,10 +3,6 @@
   height: 100%;
 }
 
-.mainContent {
-  margin: var(--margin-container);
-}
-
 .navbar {
   padding: var(--padding-lg);
 }

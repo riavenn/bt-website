@@ -1,0 +1,220 @@
+.container {
+  margin: var(--margin-container);
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--surface-dark);
+  padding: var(--padding-xl);
+  border: 1px solid rgb(31, 41, 55, 1);
+  border-radius: calc(2 * var(--border-radius-xl));
+  box-shadow: var(--box-shadow-secondary);
+  transition: box-shadow 0.3s;
+}
+
+.mainContent:hover {
+  box-shadow: var(--box-shadow-green);
+  transition: box-shadow 0.3s;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xxl);
+  justify-content: center;
+}
+
+.subTitleContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+  background-color: rgb(34 197 94 / 0.2);
+  width: fit-content;
+  padding: var(--padding-sm);
+  border-radius: var(--border-radius-full);
+  text-align: center;
+  color: white;
+}
+
+.subTitleIcon {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--brand-green);
+  border-radius: var(--border-radius-full);
+  animation: pulse-animation 2s infinite;
+}
+
+.subTitleText {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--brand-green);
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.coloredTitle {
+  display: block;
+  color: var(--brand-green);
+  font-weight: bold;
+}
+
+.description {
+  width: 450px;
+  color: white;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: var(--gap-xl);
+}
+
+.reservationButton,
+.detailsButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-md);
+  padding: var(--padding-md);
+  border-radius: var(--border-radius-full);
+  background-color: var(--brand-green);
+  width: 150px;
+}
+
+.reservationButton {
+  box-shadow: var(--box-shadow-green);
+  color: rgb(17, 23, 20, 1);
+}
+
+.detailsButton {
+  background-color: var(--brand-navy);
+}
+.detailsButtonText,
+.detailsButtonIcon {
+  color: white;
+}
+
+.reservationButtonText,
+.detailsButtonText {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.reservationButtonIcon,
+.detailsButtonIcon {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.eventDetailsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--margin-lg);
+  gap: calc(2 * var(--gap-xxl));
+}
+
+.dateContainer,
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+
+.dateText,
+.locationText {
+  text-align: center;
+  color: var(--brand-green);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.date,
+.location {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.rightSide {
+  width: 550px;
+  height: 550px;
+}
+
+.imageContainer {
+  border: 5px solid rgb(18, 26, 33, 1);
+  border-radius: var(--border-radius-lg);
+  transform: rotateZ(2deg);
+  transition: transform ease 0.5s;
+  position: relative;
+}
+
+.imageContainer:hover {
+  transform: rotateZ(0);
+  transition: transform ease 0.5s;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius-md);
+}
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 var(--brand-green);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 2px var(--brand-green);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 var(--brand-green);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
+  .mainContent {
+    flex-direction: column;
+    gap: var(--gap-xxl);
+    margin: var(--margin-md);
+    align-items: center;
+  }
+  .leftSide {
+    gap: var(--gap-xl);
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .description {
+    width: 325px;
+  }
+  .date,
+  .location {
+    text-align: center;
+  }
+  .buttonsContainer {
+    flex-direction: column;
+  }
+  .reservationButton,
+  .detailsButton {
+    width: 90%;
+  }
+  .eventDetailsContainer {
+    gap: var(--margin-lg);
+  }
+  .rightSide {
+    width: 300px;
+    height: 300px;
+  }
+}

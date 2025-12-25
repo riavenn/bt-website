@@ -1,10 +1,14 @@
 import styles from "../Team/Team.module.css";
-import { FaPaintBrush, FaGraduationCap, FaArrowRight } from "react-icons/fa";
+import {
+  FaPaintBrush,
+  FaGraduationCap,
+  FaArrowRight,
+  FaMoneyBill,
+} from "react-icons/fa";
 import { MdOutlineEventNote } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import logo from "../../../assets/logo.png";
 import { Link } from "react-router-dom";
-import Footer from "../../HomeComponents/Footer/Footer";
 
 const Card = () => {
   return (
@@ -45,6 +49,11 @@ const cardData = [
     icon: <FaPeopleGroup />,
     title: "İnsan Kaynakları",
     url: "insan-kaynaklari",
+  },
+  {
+    icon: <FaMoneyBill />,
+    title: "Sponsorluk",
+    url: "sponsorluk",
   },
 ];
 
