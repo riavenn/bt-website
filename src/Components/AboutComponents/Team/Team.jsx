@@ -7,15 +7,23 @@ import {
 } from "react-icons/fa";
 import { MdOutlineEventNote } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
-import logo from "../../../assets/logo.png";
+import logo from "../../../../public/images/logo.png";
 import { Link } from "react-router-dom";
+import { Image } from "@unpic/react";
 
 const Card = () => {
   return (
     <div className={styles.cardContainer}>
       {cardData.map((card, index) => (
         <div key={index} className={styles.card}>
-          <img className={styles.cardImage} src={logo}></img>
+          <Image
+            src={logo}
+            layout="constrained"
+            width={200}
+            alt="Ana Sayfa Banner"
+            cdn="netlify"
+            className={styles.cardImage}
+          />
           <div className={styles.cardIcon}>{card.icon}</div>
           <div className={styles.cardTitleAndIcon}>
             <div className={styles.cardTitle}>{card.title}</div>

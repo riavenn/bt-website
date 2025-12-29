@@ -5,6 +5,7 @@
 .mainContent {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--surface-dark);
   padding: var(--padding-xl);
   border: 1px solid rgb(31, 41, 55, 1);
@@ -23,6 +24,7 @@
   flex-direction: column;
   gap: var(--gap-xxl);
   justify-content: center;
+  margin-left: var(--margin-lg);
 }
 
 .subTitleContainer {
@@ -141,9 +143,16 @@
   font-size: 1rem;
 }
 
+.divider {
+  height: 550px;
+  width: 1px;
+  background-color: var(--brand-green);
+}
+
 .rightSide {
   width: 550px;
   height: 550px;
+  margin-right: var(--margin-lg);
 }
 
 .imageContainer {
@@ -160,8 +169,6 @@
 }
 
 .image {
-  width: 100%;
-  height: 100%;
   border-radius: var(--border-radius-md);
 }
 
@@ -192,6 +199,7 @@
   }
   .leftSide {
     gap: var(--gap-xl);
+    margin-left: 0;
   }
   .title {
     font-size: 2.5rem;
@@ -216,5 +224,6 @@
   .rightSide {
     width: 300px;
     height: 300px;
+    margin-right: 0;
   }
 }

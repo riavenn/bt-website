@@ -1,5 +1,6 @@
 import styles from "../Header/Header.module.css";
 import bilgisayarToplulugu from "../../../../public/images/bilgisayarToplulugu.jpg";
+import { Image } from "@unpic/react";
 
 function Header() {
   return (
@@ -11,7 +12,8 @@ function Header() {
             <div className={styles.subTitle}>HAKKIMIZDA</div>
           </div>
           <div className={styles.title}>
-            Teknolojinin <span className={styles.titleColoredText}>Kalbindeyiz</span>
+            Teknolojinin{" "}
+            <span className={styles.titleColoredText}>Kalbindeyiz</span>
           </div>
           <div className={styles.description1}>
             Bilgisayar Topluluğu olarak misyonumuz, kampüsün en dinamik
@@ -47,9 +49,13 @@ function Header() {
         </div>
         <div className={styles.rightSide}>
           <div className={styles.imageContainer}>
-            <img
+            <Image
               src={bilgisayarToplulugu}
+              layout="constrained"
+              width={2000}
+              height={1500}
               alt="Akdeniz Üniversitesi Bilgisayar Topluluğu"
+              cdn="netlify"
               className={styles.image}
             />
           </div>

@@ -4,6 +4,7 @@ import { LuCalendarPlus } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import internetHaftasi from "../../../../public/images/internetHaftasi.png";
 import EventCountdown from "../../EventCountdown/EventCountdown";
+import { Image } from "@unpic/react";
 
 function Header() {
   return (
@@ -52,10 +53,14 @@ function Header() {
         </div>
         <div className={styles.rightSide}>
           <div className={styles.imageContainer}>
-            <img
+            <Image
               src={internetHaftasi}
-              alt="Akdeniz Game Jam"
+              alt="Akdeniz Üniversitesi İnternet Haftası Etkinliği'26"
               className={styles.image}
+              width={550}
+              height={550}
+              layout="constrained"
+              cdn="netlify"
             />
           </div>
         </div>

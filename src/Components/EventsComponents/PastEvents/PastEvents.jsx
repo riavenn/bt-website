@@ -24,6 +24,7 @@ import internetHaftasi2022 from "../../../../public/images/internetHaftasi2022.j
 import girisimdeTasarimFinanstaYazilim from "../../../../public/images/girisimdeTasarimFinanstaYazilim.jpg";
 import publishMeGlobal from "../../../../public/images/publishMeGlobal.jpg";
 import sadiEvrenSeker from "../../../../public/images/sadiEvrenSeker.jpg";
+import { Image } from "@unpic/react";
 
 const cardData = [
   {
@@ -151,7 +152,15 @@ const Card = ({ data }) => {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
-        <img src={data.imageUrl} alt={data.title} className={styles.image} />
+        <Image
+          src={data.imageUrl}
+          alt={data.title}
+          className={styles.image}
+          layout="constrained"
+          width={200}
+          height={200}
+          cdn="netlify"
+        />
       </div>
       <div className={styles.eventDetailsContainer}>
         <div className={styles.dateContainer}>

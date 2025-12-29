@@ -83,15 +83,8 @@
   color: var(--text-gray);
 }
 
-.imageContainer {
-  width: 500px;
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-  border-radius: calc(2 * var(--border-radius-md));
-  padding: var(--padding-lg);
-  gap: var(--gap-md);
-  position: relative;
+.image {
+  border-radius: var(--border-radius-full);
 }
 
 .imageContainer::after {
@@ -136,9 +129,5 @@
   }
   .missionContainer {
     content: "";
-  }
-  .imageContainer {
-    width: 300px;
-    height: 300px;
   }
 }

@@ -10,6 +10,7 @@ import gameJamImage from "../../../../public/images/gamejam.jpg";
 import avatar from "../../../../public/images/avatar.jpg";
 import avatar2 from "../../../../public/images/avatar2.jpg";
 import avatar3 from "../../../../public/images/avatar3.jpg";
+import { Image } from "@unpic/react";
 
 function Header() {
   return (
@@ -58,13 +59,34 @@ function Header() {
           <div className={styles.activeMembersContainer}>
             <div className={styles.activeMemberAvatars}>
               <div className={styles.firstActiveMemberAvatar}>
-                <img src={avatar} alt="active-member" width={35} height={35} />
+                <Image
+                  src={avatar}
+                  layout="constrained"
+                  width={35}
+                  height={35}
+                  alt="Aktif Üye"
+                  cdn="netlify"
+                />
               </div>
               <div className={styles.activeMemberAvatar}>
-                <img src={avatar2} alt="active-member" width={35} height={35} />
+                <Image
+                  src={avatar2}
+                  layout="constrained"
+                  width={35}
+                  height={35}
+                  alt="Aktif Üye"
+                  cdn="netlify"
+                />
               </div>
               <div className={styles.activeMemberAvatar}>
-                <img src={avatar3} alt="active-member" width={35} height={35} />
+                <Image
+                  src={avatar3}
+                  layout="constrained"
+                  width={35}
+                  height={35}
+                  alt="Aktif Üye"
+                  cdn="netlify"
+                />
               </div>
               <div className={styles.lastActiveMemberAvatar}>+1000</div>
             </div>
@@ -73,7 +95,14 @@ function Header() {
         </div>
         <div className={styles.rightSide}>
           <div className={styles.imageContainer}>
-            <img src={gameJamImage} alt="akdeniz game jam" />
+            <Image
+              src={gameJamImage}
+              layout="constrained"
+              width={550}
+              height={550}
+              alt="Akdeniz Game Jam'25"
+              cdn="netlify"
+            />
             <div className={styles.nextEventContainer}>
               <div className={styles.nextEventIcon}>
                 <FaCalendar />

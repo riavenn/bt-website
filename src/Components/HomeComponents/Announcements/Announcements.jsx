@@ -4,6 +4,7 @@ import { CiCalendar } from "react-icons/ci";
 import yazilimTestUzmanligi from "../../../../public/images/yazilim-test-uzmanligi.jpg";
 import tanismaEtkinligi from "../../../../public/images/tanisma-etkinligi.jpg";
 import solanaEvent from "../../../../public/images/solanaEvent.jpg";
+import { Image } from "@unpic/react";
 
 function AnnouncementsCards() {
   return (
@@ -11,7 +12,15 @@ function AnnouncementsCards() {
       {cardData.map((card, index) => (
         <div key={index} className={styles.card}>
           <div className={styles.cardTop}>
-            <img src={card.imageUrl} className={styles.image}></img>
+            <Image
+              src={card.imageUrl}
+              className={styles.image}
+              layout="constrained"
+              width={500}
+              height={500}
+              cdn="netlify"
+              alt={card.title}
+            />
           </div>
           <div className={styles.cardBottom}>
             <div className={styles.date}>

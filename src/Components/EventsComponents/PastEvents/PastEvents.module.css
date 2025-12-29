@@ -175,6 +175,7 @@
   }
   .card {
     flex-direction: column;
+    gap: var(--gap-lg);
   }
   .imageContainer {
     width: 100%;

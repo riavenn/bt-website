@@ -1,6 +1,7 @@
 import styles from "./AboutUs.module.css";
 import { FiTarget } from "react-icons/fi";
 import ekip from "../../../../public/images/ekip.jpg";
+import { Image } from "@unpic/react";
 
 function AboutUs() {
   return (
@@ -35,9 +36,14 @@ function AboutUs() {
           </div>
         </div>
         <div className={styles.rightContent}>
-          <div
-            className={styles.imageContainer}
-            style={{ backgroundImage: `url(${ekip})` }}
+          <Image
+            src={ekip}
+            layout="constrained"
+            width={1000}
+            height={1000}
+            alt="Dijital Gençlik Hackathonu"
+            cdn="netlify"
+            className={styles.image}
           />
         </div>
       </div>

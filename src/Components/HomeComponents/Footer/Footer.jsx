@@ -1,9 +1,10 @@
 import styles from "../Footer/Footer.module.css";
-import logo from "../../../assets/logo.png";
+import logo from "../../../../public/images/logo.png";
 import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdMailOutline } from "react-icons/md";
+import { Image } from "@unpic/react";
 
 function Footer() {
   return (
@@ -11,11 +12,14 @@ function Footer() {
       <div className={styles.mainContent}>
         <div className={styles.colum1}>
           <Link to={"/"} className={styles.logo}>
-            <img
+            <Image
               src={logo}
-              alt="Akdeniz Üniversitesi Bilgisayar Topluluğu"
+              layout="constrained"
               width={50}
-              className={styles.image}></img>
+              alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logosu"
+              cdn="netlify"
+              className={styles.image}
+            />
           </Link>
           <div className={styles.description}>
             Öğrencilerin akademik ve sosyal gelişimine katkıda <br /> bulunmak
