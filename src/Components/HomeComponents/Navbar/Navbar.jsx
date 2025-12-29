@@ -2,7 +2,6 @@ import { useState } from "react";
 import styles from "./Navbar.module.css";
 import logo from "../../../../public/images/logo.png";
 import { Link, NavLink } from "react-router-dom";
-import { Image } from "@unpic/react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,13 +14,11 @@ function Navbar() {
       <div className={styles.navbar}>
         <div className={styles.navbarLogoContainer}>
           <a href="/" aria-label="Ana Sayfa">
-            <Image
+            <img
               src={logo}
-              alt="Akdeniz Üniversitesi Bilgisayar Topluluğu"
-              layout="constrained"
+              alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logo"
               className={styles.image}
-              height={40}
-              cdn="netlify"
+              width={40}
             />
           </a>
         </div>

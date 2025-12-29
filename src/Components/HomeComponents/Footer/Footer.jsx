@@ -12,12 +12,10 @@ function Footer() {
       <div className={styles.mainContent}>
         <div className={styles.colum1}>
           <Link to={"/"} className={styles.logo}>
-            <Image
+            <img
               src={logo}
-              layout="constrained"
-              height={50}
+              width={50}
               alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logosu"
-              cdn="netlify"
               className={styles.image}
             />
           </Link>
