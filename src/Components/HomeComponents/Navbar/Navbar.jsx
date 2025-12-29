@@ -20,7 +20,7 @@ function Navbar() {
               alt="Akdeniz Üniversitesi Bilgisayar Topluluğu"
               layout="constrained"
               className={styles.image}
-              width={40}
+              height={40}
               cdn="netlify"
             />
           </a>

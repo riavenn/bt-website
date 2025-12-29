@@ -15,7 +15,7 @@ function Footer() {
             <Image
               src={logo}
               layout="constrained"
-              width={50}
+              height={50}
               alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logosu"
               cdn="netlify"
               className={styles.image}
