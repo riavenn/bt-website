@@ -19,7 +19,7 @@ const Card = () => {
           <Image
             src={logo}
             layout="constrained"
-            height={300}
+            height={400}
             alt="Ana Sayfa Banner"
             cdn="netlify"
             className={styles.cardImage}

@@ -42,8 +42,8 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 350px;
+  width: auto;
+  height: auto;
   padding: var(--padding-lg);
   gap: var(--gap-lg);
   border: 1px solid rgb(31, 41, 55, 1);
@@ -136,8 +136,8 @@
     gap: var(--gap-xxl);
   }
   .card {
-    width: 310px;
-    height: 350px;
+    width: auto;
+    height: auto;
   }
   .description {
     text-align: center;
