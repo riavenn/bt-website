@@ -49,7 +49,6 @@ function Header() {
               <div className={styles.location}>Atatürk Konferans Salonu</div>
             </div>
           </div>
-          <EventCountdown targetDate="2026-03-04T14:00:00" />
         </div>
         <div className={styles.rightSide}>
           <div className={styles.imageContainer}>
@@ -57,12 +56,13 @@ function Header() {
               src={internetHaftasi}
               alt="Akdeniz Üniversitesi İnternet Haftası Etkinliği'26"
               className={styles.image}
-              width={550}
-              height={550}
+              width={500}
+              height={500}
               layout="constrained"
               cdn="netlify"
             />
           </div>
+          <EventCountdown targetDate="2026-03-04T14:00:00" />
         </div>
       </div>
     </div>
