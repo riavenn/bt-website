@@ -1,0 +1,46 @@
+.container {
+  margin: var(--margin-container);
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xxl);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+}
+
+.coloredTitle {
+  color: var(--primary-color);
+}
+
+.description {
+  color: var(--text-gray);
+  font-size: 1rem;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 !important;
+  }
+  .mainContent {
+    margin: var(--margin-md);
+    gap: var(--gap-sm);
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .description {
+    width: 100%;
+  }
+}

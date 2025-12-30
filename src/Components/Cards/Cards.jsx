@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import styles from "../Cards/Cards.module.css";
+import { FaArrowRight } from "react-icons/fa";
 
 function Cards({ cardData }) {
   return (
@@ -9,6 +11,12 @@ function Cards({ cardData }) {
             <div className={styles.icon}>{card.icon}</div>
             <div className={styles.title}>{card.title}</div>
             <div className={styles.description}>{card.description}</div>
+            {card.url && (
+              <Link to={`${card.url}`} className={styles.cardTitleIcon}>
+                {card.cardTitle} {""}
+                <FaArrowRight />
+              </Link>
+            )}
           </div>
         ))}
       </div>
