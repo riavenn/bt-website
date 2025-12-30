@@ -116,7 +116,6 @@
 
 .eventDetailsContainer {
   display: flex;
-  justify-content: center;
   margin-top: var(--margin-lg);
   gap: calc(2 * var(--gap-xxl));
 }

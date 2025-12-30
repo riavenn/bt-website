@@ -93,6 +93,11 @@
   font-weight: bold;
 }
 
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+
 .imageContainer {
   position: relative;
   border-radius: var(--border-radius-lg);
@@ -100,8 +105,6 @@
 
 .image {
   border-radius: var(--border-radius-lg);
-  width: 100%;
-  height: 100%;
 }
 
 @media (max-width: 768px) {
