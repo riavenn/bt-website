@@ -111,7 +111,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-lg);
+    margin: var(--margin-xl);
     margin-top: var(--margin-xl);
   }
   .cardContent {
@@ -122,13 +122,13 @@
     gap: var(--gap-lg);
   }
   .title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .description {
     text-align: left;
   }
   .missionContainer {
-    content: "";
+    flex-direction: column;
   }
 }
 

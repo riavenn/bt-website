@@ -104,7 +104,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-lg);
+    margin: var(--margin-xl);
     margin-top: var(--margin-xl);
   }
   .cardsContainer {
