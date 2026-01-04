@@ -82,18 +82,9 @@
   .mainContent {
     padding: var(--padding-lg);
   }
-  .mainContent::before {
-    top: -10%;
-    left: -15%;
-    width: 70%;
-    height: 30%;
-  }
-
+  .mainContent::before,
   .mainContent::after {
-    top: -10%;
-    right: -15%;
-    width: 70%;
-    height: 30%;
+    display: none;
   }
   .cardContainer {
     grid-template-columns: repeat(1, minmax(0, 1fr));
