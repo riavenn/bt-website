@@ -82,6 +82,19 @@
   .mainContent {
     padding: var(--padding-lg);
   }
+  .mainContent::before {
+    top: -10%;
+    left: -15%;
+    width: 70%;
+    height: 30%;
+  }
+
+  .mainContent::after {
+    top: -10%;
+    right: -15%;
+    width: 70%;
+    height: 30%;
+  }
   .cardContainer {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -100,5 +113,11 @@
 @media (min-width: 1024px) {
   .container {
     margin: var(--margin-container-sm);
+  }
+  .mainContent::before,
+  .mainContent::after {
+    width: 60%;
+    height: 40%;
+    opacity: 0.7;
   }
 }
