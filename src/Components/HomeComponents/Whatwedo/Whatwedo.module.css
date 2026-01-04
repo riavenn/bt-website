@@ -105,10 +105,4 @@
   .container {
     margin: var(--margin-container-sm);
   }
-  .mainContent::before,
-  .mainContent::after {
-    width: 60%;
-    height: 40%;
-    opacity: 0.7;
-  }
 }
