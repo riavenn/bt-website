@@ -60,10 +60,9 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: 0 !important;
+    margin: var(--margin-lg);
   }
   .mainContent {
-    margin: var(--margin-md);
     margin-top: var(--margin-lg);
   }
   .title {

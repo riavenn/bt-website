@@ -31,10 +31,9 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: 0 !important;
+    margin: var(--margin-lg);
   }
   .mainContent {
-    margin: var(--margin-md);
     gap: var(--gap-sm);
   }
   .title {
