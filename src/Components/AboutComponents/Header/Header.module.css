@@ -116,3 +116,20 @@
     margin: var(--margin-md);
   }
 }
+
+@media (min-width: 1024px) {
+  .container {
+    margin: var(--margin-container-sm);
+    margin-top: var(--margin-sm);
+  }
+  .imageContainer {
+    width: 500px;
+  }
+  .leftSide {
+    gap: var(--gap-lg);
+  }
+  .title,
+  .titleColoredText {
+    font-size: 2.5rem;
+  }
+}

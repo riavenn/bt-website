@@ -5,7 +5,6 @@
 .mainContent {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: var(--surface-dark);
   padding: var(--padding-xl);
   border: 1px solid rgb(31, 41, 55, 1);
@@ -30,6 +29,7 @@
 .subTitleContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: var(--gap-md);
   background-color: rgb(34 197 94 / 0.2);
   width: fit-content;
@@ -37,6 +37,7 @@
   border-radius: var(--border-radius-full);
   text-align: center;
   color: white;
+  width: 150px;
 }
 
 .subTitleIcon {
@@ -157,6 +158,10 @@
   transform: rotateZ(2deg);
   transition: transform ease 0.5s;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .imageContainer:hover {
@@ -221,5 +226,31 @@
     width: 300px;
     height: 400px;
     margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin: var(--margin-container-sm);
+    margin-top: var(--margin-sm);
+  }
+  .leftSide {
+    margin-left: 0;
+  }
+  .rightSide {
+    margin-right: 0;
+    width: 550px;
+    height: 550px;
+  }
+  .imageContainer {
+    width: 100%;
+    height: 100%;
+  }
+  .image{
+    width: 300px;
+    height: auto;
+  }
+  .title {
+    font-size: 3rem;
   }
 }

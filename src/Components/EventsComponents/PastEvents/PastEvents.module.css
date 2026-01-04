@@ -192,3 +192,9 @@
     width: 100%;
   }
 }
+
+@media (min-width: 1024px) {
+  .container {
+    margin: var(--margin-container-sm);
+  }
+}

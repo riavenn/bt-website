@@ -63,3 +63,9 @@
     text-wrap-style: balance;
   }
 }
+
+@media (min-width: 1024px) {
+  .container {
+    margin: var(--margin-container-sm);
+  }
+}

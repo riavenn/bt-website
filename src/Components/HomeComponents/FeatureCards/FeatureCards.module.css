@@ -7,3 +7,9 @@
     margin: var(--margin-lg);
   }
 }
+
+@media (min-width: 1024px) {
+  .container {
+    margin: var(--margin-container-sm);
+  }
+}

@@ -11,6 +11,8 @@
   --box-shadow-secondary: 0 5px 10px var(--secondary-color);
   --box-shadow-green: 0 4px 14px 0 var(--brand-green);
   --margin-container: 50px 250px;
+  --margin-container-md: 50px 200px;
+  --margin-container-sm: 50px 150px;
   --gap-sm: 4px;
   --gap-md: 8px;
   --gap-lg: 16px;

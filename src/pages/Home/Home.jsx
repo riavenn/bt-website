@@ -10,26 +10,28 @@ import styles from "../Home/Home.module.css";
 function Home() {
   return (
     <div className={styles.container}>
-      <div className={styles.navbar}>
-        <Navbar />
-      </div>
-      <div className={styles.header}>
-        <Header />
-      </div>
-      <div className={styles.featureCards}>
-        <FeatureCards />
-      </div>
-      <div className={styles.about}>
-        <AboutUs />
-      </div>
-      <div className={styles.announcements}>
-        <Announcements />
-      </div>
-      <div className={styles.whatwedo}>
-        <Whatwedo />
-      </div>
-      <div className={styles.footer}>
-        <Footer />
+      <div className={styles.mainContent}>
+        <div className={styles.navbar}>
+          <Navbar />
+        </div>
+        <div className={styles.header}>
+          <Header />
+        </div>
+        <div className={styles.featureCards}>
+          <FeatureCards />
+        </div>
+        <div className={styles.about}>
+          <AboutUs />
+        </div>
+        <div className={styles.announcements}>
+          <Announcements />
+        </div>
+        <div className={styles.whatwedo}>
+          <Whatwedo />
+        </div>
+        <div className={styles.footer}>
+          <Footer />
+        </div>
       </div>
     </div>
   );

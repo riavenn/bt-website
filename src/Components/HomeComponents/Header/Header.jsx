@@ -97,6 +97,7 @@ function Header() {
           <div className={styles.imageContainer}>
             <Image
               src={gameJamImage}
+              className={styles.image}
               layout="constrained"
               width={550}
               height={550}
