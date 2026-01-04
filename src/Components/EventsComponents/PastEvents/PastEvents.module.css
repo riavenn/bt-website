@@ -90,7 +90,7 @@
 }
 
 .titleLine {
-  width: 5px;
+  width: 2px;
   height: 30px;
   background-color: var(--primary-color);
   border-radius: var(--border-radius-lg);
@@ -164,13 +164,12 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: 0;
+    margin: var(--margin-lg);
   }
   .mainContent {
-    margin: var(--margin-md);
+    content: "";
   }
   .titleContainer {
-    margin: var(--margin-md);
     margin-top: var(--margin-xl);
   }
   .card {

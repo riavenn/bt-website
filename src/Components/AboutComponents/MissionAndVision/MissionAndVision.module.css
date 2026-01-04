@@ -81,15 +81,15 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: 0;
+    margin: var(--margin-lg);
     margin-top: var(--margin-xl);
   }
   .mainContent {
     flex-direction: column;
-    margin: var(--margin-md);
   }
   .cardContainer {
     flex-direction: column;
+    gap: var(--gap-xl);
   }
   .missionContainer,
   .visionContainer {

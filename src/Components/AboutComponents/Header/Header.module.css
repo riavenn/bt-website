@@ -142,15 +142,21 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: 0;
+    margin: var(--margin-lg);
   }
   .mainContent {
     flex-direction: column;
-    margin: var(--margin-md);
   }
   .mainContent::before,
   .mainContent::after {
     display: none;
+  }
+  .title,
+  .titleColoredText {
+    font-size: 2.5rem;
+  }
+  .numbersAndUs {
+    gap: var(--gap-xxl);
   }
 }
 
