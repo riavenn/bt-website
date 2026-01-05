@@ -1,6 +1,7 @@
 .container {
   background-color: var(--background-dark);
   height: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
