@@ -14,7 +14,7 @@ function TeamLayout() {
             cdn="netlify"
             alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logo"
             className={styles.image}
-            width={250}
+            width={150}
           />
         </Link>
         <div className={styles.outlet}>
