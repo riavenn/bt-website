@@ -65,7 +65,6 @@ function Header() {
                   width={35}
                   height={35}
                   alt="Aktif Üye"
-                  cdn="netlify"
                 />
               </div>
               <div className={styles.activeMemberAvatar}>
@@ -75,7 +74,6 @@ function Header() {
                   width={35}
                   height={35}
                   alt="Aktif Üye"
-                  cdn="netlify"
                 />
               </div>
               <div className={styles.activeMemberAvatar}>
@@ -85,7 +83,6 @@ function Header() {
                   width={35}
                   height={35}
                   alt="Aktif Üye"
-                  cdn="netlify"
                 />
               </div>
               <div className={styles.lastActiveMemberAvatar}>+1000</div>
@@ -102,7 +99,6 @@ function Header() {
               width={550}
               height={550}
               alt="Akdeniz Game Jam'25"
-              cdn="netlify"
             />
             <div className={styles.nextEventContainer}>
               <div className={styles.nextEventIcon}>

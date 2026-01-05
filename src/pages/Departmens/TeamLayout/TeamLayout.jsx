@@ -11,7 +11,6 @@ function TeamLayout() {
           <Image
             src={logo}
             layout="constrained"
-            cdn="netlify"
             alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logo"
             className={styles.image}
             width={150}

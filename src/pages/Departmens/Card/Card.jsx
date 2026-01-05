@@ -14,7 +14,6 @@ function Card({ avatar, userName, jobTitle }) {
               layout="constrained"
               width={450}
               height={550}
-              cdn="netlify"
             />
           </div>
           <div className={styles.cardTextContainer}>

@@ -159,7 +159,6 @@ const Card = ({ data }) => {
           layout="constrained"
           width={200}
           height={200}
-          cdn="netlify"
         />
       </div>
       <div className={styles.eventDetailsContainer}>

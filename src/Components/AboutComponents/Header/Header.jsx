@@ -55,7 +55,6 @@ function Header() {
               width={2000}
               height={1500}
               alt="Akdeniz Üniversitesi Bilgisayar Topluluğu"
-              cdn="netlify"
               className={styles.image}
             />
           </div>

@@ -18,7 +18,6 @@ function AnnouncementsCards() {
               layout="constrained"
               width={500}
               height={500}
-              cdn="netlify"
               alt={card.title}
             />
           </div>

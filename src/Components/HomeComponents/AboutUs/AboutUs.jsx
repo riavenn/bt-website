@@ -42,7 +42,6 @@ function AboutUs() {
             width={1000}
             height={1000}
             alt="Dijital Gençlik Hackathonu"
-            cdn="netlify"
             className={styles.image}
           />
         </div>

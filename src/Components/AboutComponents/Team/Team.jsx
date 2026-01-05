@@ -21,7 +21,6 @@ const Card = () => {
             layout="constrained"
             width={250}
             alt="Ana Sayfa Banner"
-            cdn="netlify"
             className={styles.cardImage}
           />
           <div className={styles.cardIcon}>{card.icon}</div>

@@ -59,7 +59,6 @@ function Header() {
               width={450}
               height={450}
               layout="constrained"
-              cdn="netlify"
             />
           </div>
           <EventCountdown targetDate="2026-03-04T14:00:00" />
