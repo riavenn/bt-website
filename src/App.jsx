@@ -10,10 +10,12 @@ import EventAndOrganization from "./pages/Departmens/EventAndOrganization/EventA
 import HumanResources from "./pages/Departmens/HumanResources/HumanResources";
 import Sponsorship from "./pages/Departmens/Sponsorship/Sponsorship";
 import TeamLayout from "./pages/Departmens/TeamLayout/TeamLayout";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hakkimizda" element={<About />} />
