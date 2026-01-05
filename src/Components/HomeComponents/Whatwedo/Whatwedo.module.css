@@ -4,11 +4,8 @@
 
 .mainContent {
   gap: var(--gap-lg);
-  background-color: rgb(8, 18, 26, 1);
   padding: var(--padding-xl);
-  border: 1px solid rgb(31, 41, 55, 1);
   border-radius: var(--border-radius-xl);
-  box-shadow: var(--box-shadow-secondary);
   position: relative;
   overflow: hidden;
 }
@@ -91,6 +88,7 @@
   }
   .textContainer {
     align-items: start;
+    gap: var(--gap-md);
   }
   .title {
     font-size: 2rem;
