@@ -42,6 +42,11 @@
   color: var(--primary-color);
 }
 
+.image{
+  display: flex;
+  align-items: center;
+}
+
 .joinButton {
   border: none;
   background-color: var(--primary-color);

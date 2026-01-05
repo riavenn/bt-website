@@ -13,7 +13,7 @@ function JoinTeam() {
           Teknoloji dünyasında yerini al, projelerde aktif rol oyna ve bizimle
           birlikte geleceği inşa et.
         </div>
-        <Link to={"/basvuru-formu"}>
+        <Link to={"https://www.instagram.com/btakdenizuni"}>
           <div className={styles.applicationFormContainer}>
             <div className={styles.text}>Başvuru Formu</div>
             <div className={styles.icon}>

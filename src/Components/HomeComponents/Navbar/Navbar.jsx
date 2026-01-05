@@ -56,12 +56,12 @@ function Navbar() {
             Etkinlikler
           </NavLink>
           <NavLink
-            to="/ekip"
+            to="/departmanlar"
             onClick={closeMenu}
             className={({ isActive }) =>
               isActive ? `${styles.navLink} ${styles.active}` : styles.navLink
             }>
-            Ekip
+            Departmanlar
           </NavLink>
 
           <div className={styles.mobileJoinButton}>

@@ -63,9 +63,6 @@
 }
 
 @media (max-width: 768px) {
-  .cards {
-    margin-top: var(--margin-xl);
-  }
   .cardContainer {
     grid-template-columns: repeat(1, 1fr);
   }

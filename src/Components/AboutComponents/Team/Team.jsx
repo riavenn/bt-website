@@ -27,7 +27,9 @@ const Card = () => {
           <div className={styles.cardIcon}>{card.icon}</div>
           <div className={styles.cardTitleAndIcon}>
             <div className={styles.cardTitle}>{card.title}</div>
-            <Link to={`${card.url}`} className={styles.cardTitleIcon}>
+            <Link
+              to={`/departmanlar/${card.url}`}
+              className={styles.cardTitleIcon}>
               <FaArrowRight />
             </Link>
           </div>

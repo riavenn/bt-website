@@ -1,0 +1,9 @@
+.image {
+  border-radius: var(--border-radius-lg);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}

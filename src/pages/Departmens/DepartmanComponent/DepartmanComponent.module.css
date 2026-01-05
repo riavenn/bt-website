@@ -1,0 +1,170 @@
+.container {
+  margin: var(--margin-container);
+}
+
+.mainContent {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xxl);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-xl);
+  padding: var(--padding-lg);
+  border: 1px solid rgb(55, 65, 81, 1);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--box-shadow-secondary);
+  transition: box-shadow 0.3s ease;
+}
+
+.textContainer:hover {
+  box-shadow: var(--box-shadow-primary);
+  transition: box-shadow 0.3s ease;
+}
+
+.subTitle {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.coloredTitle {
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: 1.25rem;
+  width: 80%;
+  text-align: center;
+}
+
+.whatwedo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xxl);
+}
+
+.whatwedoTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+  margin-top: var(--margin-lg);
+}
+
+.whatwedoTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.whatwedoDescription {
+  font-size: 1rem;
+  width: 70%;
+  color: var(--text-gray);
+}
+
+.divider {
+  width: 80%;
+  height: 1px;
+  background-color: var(--text-gray);
+  opacity: 0.5;
+  margin-top: var(--margin-md);
+}
+
+.whatwedoCardContainer {
+  content: "";
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  margin-bottom: var(--margin-lg);
+}
+
+.teamTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+  margin-top: var(--margin-lg);
+}
+
+.teamSubTitle {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.teamTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap-xl);
+}
+
+.cardTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  color: white;
+}
+
+.jobTitle {
+  color: var(--text-gray);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: var(--margin-lg);
+    margin-bottom: 0;
+  }
+  .textContainer {
+    gap: var(--gap-lg);
+  }
+  .subTitle {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .whatwedoDescription {
+    width: 90%;
+  }
+  .cardContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin: var(--margin-container-sm);
+    margin-top: var(--margin-sm);
+    margin-bottom: 0;
+  }
+}

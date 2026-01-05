@@ -4,15 +4,35 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Events from "./pages/Events/Events";
 import Team from "./pages/Team/Team";
+import SocialMediaAndDesign from "./pages/Departmens/SocialMediaAndDesign/SocialMediaAndDesign";
+import ProjectAndTraining from "./pages/Departmens/ProjectAndTraining/ProjectAndTraining";
+import EventAndOrganization from "./pages/Departmens/EventAndOrganization/EventAndOrganization";
+import HumanResources from "./pages/Departmens/HumanResources/HumanResources";
+import Sponsorship from "./pages/Departmens/Sponsorship/Sponsorship";
+import TeamLayout from "./pages/Departmens/TeamLayout/TeamLayout";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/hakkimizda" element={<About />}></Route>
-        <Route path="/etkinlikler" element={<Events />}></Route>
-        <Route path="/ekip" element={<Team />}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/hakkimizda" element={<About />} />
+        <Route path="/etkinlikler" element={<Events />} />
+        <Route path="/departmanlar" element={<Team />} />
+
+        <Route path="/departmanlar" element={<TeamLayout />}>
+          <Route
+            path="sosyal-medya-ve-tasarim"
+            element={<SocialMediaAndDesign />}
+          />
+          <Route path="proje-ve-egitim" element={<ProjectAndTraining />} />
+          <Route
+            path="etkinlik-ve-organizasyon"
+            element={<EventAndOrganization />}
+          />
+          <Route path="insan-kaynaklari" element={<HumanResources />} />
+          <Route path="sponsorluk" element={<Sponsorship />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
