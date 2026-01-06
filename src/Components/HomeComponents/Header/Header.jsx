@@ -18,9 +18,6 @@ function Header() {
       <div className={styles.header}>
         <div className={styles.leftSide}>
           <div className={styles.notification}>
-            <i className={styles.notificationIcon}>
-              <FaCircle />
-            </i>
             <div className={styles.notificationText}>
               AKDENİZ ÜNİVERSİTESİ BİLGİSAYAR TOPLULUĞU
             </div>

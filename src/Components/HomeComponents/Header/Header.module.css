@@ -27,13 +27,6 @@
   color: rgb(191, 219, 254, 1);
 }
 
-.notificationIcon {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  color: var(--primary-color);
-}
-
 .title {
   width: 650px;
   font-size: 4.5rem;
@@ -230,7 +223,7 @@
     width: 100%;
     height: auto;
   }
-  .image{
+  .image {
     width: 100%;
     height: auto;
   }
