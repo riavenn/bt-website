@@ -30,9 +30,14 @@ function AnnouncementsCards() {
             </div>
             <div className={styles.cardTitle}>{card.title}</div>
             <div className={styles.cardDescription}>{card.description}</div>
-            <Link to={"/"} className={styles.cardDetails}>
-              Detaylar
-            </Link>
+            <div className={styles.cardDetailsContainer}>
+              <Link
+                to={"https://instagram.com/btakdenizuni"}
+                target="_blank"
+                className={styles.cardDetails}>
+                Detaylar
+              </Link>
+            </div>
           </div>
         </div>
       ))}
@@ -46,7 +51,7 @@ const cardData = [
     dateText: "24 Ekim 2023",
     title: "Yazılım Test Uzmanlığı Eğitimi",
     description:
-      "Python ile veri bilimine giriş yapacağımız workshop için kayıtlar başladı. Kontenjan sınırlı!",
+      "Yazılımda kalitenin mimarı olun! Topluluğumuzun Yazılım Test Uzmanlığı Eğitimi ile kariyerinizde yeni bir dönem başlıyor. Geleceği birlikte test edelim!",
   },
   {
     imageUrl: tanismaEtkinligi,
