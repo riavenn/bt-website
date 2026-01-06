@@ -182,7 +182,7 @@ const Card = ({ data }) => {
 function PastEvents() {
   const [currentPage, setCurrentPage] = useState(1);
   const titleRef = useRef(null);
-  const itemsPerPage = 4;
+  const itemsPerPage = 6;
 
   const totalPages = Math.ceil(cardData.length / itemsPerPage);
   const indexOfLastItem = currentPage * itemsPerPage;
