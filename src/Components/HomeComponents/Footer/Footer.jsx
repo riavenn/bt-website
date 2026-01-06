@@ -49,19 +49,35 @@ function Footer() {
         <div className={styles.colum2}>
           <div className={styles.title}>Hızlı Erişim</div>
           <div className={styles.links}>
-            <div className={styles.link}>Ana Sayfa</div>
-            <div className={styles.link}>Hakkımızda</div>
-            <div className={styles.link}>Etkinlik Takvimi</div>
-            <div className={styles.link}>İletişim</div>
+            <Link to={"/"} className={styles.link}>
+              Ana Sayfa
+            </Link>
+            <Link to={"/hakkimizda"} className={styles.link}>
+              Hakkımızda
+            </Link>
+            <Link to={"/etkinlikler"} className={styles.link}>
+              Etkinlikler
+            </Link>
           </div>
         </div>
         <div className={styles.colum3}>
           <div className={styles.title}>Topluluk</div>
           <div className={styles.links}>
-            <div className={styles.link}>Yönetim Kurulu</div>
-            <div className={styles.link}>Departmanlarımız</div>
-            <div className={styles.link}>Tüzük</div>
-            <div className={styles.link}>Üyelik formu</div>
+            <Link to={"/departmanlar"} className={styles.link}>
+              Departmanlarımız
+            </Link>
+            <Link
+              to={"https://www.youtube.com/@btakdenizuni/featured"}
+              target="_blank"
+              className={styles.link}>
+              Tanıtım Videosu
+            </Link>
+            <Link
+              to={"http://mediko.akdeniz.edu.tr/topluluk/"}
+              target="_blank"
+              className={styles.link}>
+              Üyelik formu
+            </Link>
           </div>
         </div>
         <div className={styles.colum4}>

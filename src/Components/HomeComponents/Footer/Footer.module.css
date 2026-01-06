@@ -66,6 +66,10 @@
   font-size: 1rem;
 }
 
+.link {
+  color: var(--text-gray);
+}
+
 .row {
   display: flex;
   gap: var(--gap-md);
