@@ -46,7 +46,7 @@
 
 .description {
   font-size: 1.25rem;
-  width: 80%;
+  width: 70%;
   text-align: center;
 }
 
@@ -152,6 +152,7 @@
   }
   .description {
     font-size: 1rem;
+    width: 100%;
   }
   .whatwedoDescription {
     width: 90%;

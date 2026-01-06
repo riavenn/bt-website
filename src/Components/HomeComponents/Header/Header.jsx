@@ -59,8 +59,8 @@ function Header() {
                 <Image
                   src={avatar}
                   layout="constrained"
-                  width={35}
-                  height={35}
+                  width={45}
+                  height={45}
                   alt="Aktif Üye"
                 />
               </div>
@@ -68,8 +68,8 @@ function Header() {
                 <Image
                   src={avatar2}
                   layout="constrained"
-                  width={35}
-                  height={35}
+                  width={45}
+                  height={45}
                   alt="Aktif Üye"
                 />
               </div>
@@ -77,8 +77,8 @@ function Header() {
                 <Image
                   src={avatar3}
                   layout="constrained"
-                  width={35}
-                  height={35}
+                  width={45}
+                  height={45}
                   alt="Aktif Üye"
                 />
               </div>
