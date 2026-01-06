@@ -4,7 +4,7 @@
 
 .mainContent {
   display: flex;
-  gap: calc(2 * var(--gap-xl));
+  gap: calc(2 * var(--gap-lg));
   justify-content: space-evenly;
   padding: calc(2 * var(--padding-lg)) calc(2 * var(--padding-xl));
 }
