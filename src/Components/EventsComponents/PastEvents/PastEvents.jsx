@@ -1,4 +1,4 @@
-import React, { useState } from "react"; // useState ekledik
+import React, { useState, useRef } from "react";
 import styles from "../PastEvents/PastEvents.module.css";
 import {
   FaCalendar,
@@ -181,6 +181,7 @@ const Card = ({ data }) => {
 
 function PastEvents() {
   const [currentPage, setCurrentPage] = useState(1);
+  const titleRef = useRef(null);
   const itemsPerPage = 4;
 
   const totalPages = Math.ceil(cardData.length / itemsPerPage);
@@ -190,12 +191,17 @@ function PastEvents() {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
-    window.scrollTo({ top: 500, behavior: "smooth" });
+    if (titleRef.current) {
+      titleRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
   };
 
   return (
     <div className={styles.container}>
-      <div className={styles.titleContainer}>
+      <div className={styles.titleContainer} ref={titleRef}>
         <div className={styles.titleLine}></div>
         <div className={styles.title}>Geçmiş Dönem Etkinlikleri</div>
       </div>
