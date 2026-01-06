@@ -76,14 +76,14 @@
 .subTitleIcon {
   display: flex;
   align-items: center;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--brand-green);
   border-radius: var(--border-radius-full);
   animation: pulse-animation 2s infinite;
 }
 
 .subTitleText {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--brand-green);
 }
@@ -166,7 +166,7 @@
   text-align: center;
   color: var(--brand-green);
   font-weight: bold;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .date,

@@ -19,18 +19,20 @@ const Card = () => {
           <Image
             src={logo}
             layout="constrained"
-            width={250}
+            width={200}
             alt="Ana Sayfa Banner"
             className={styles.cardImage}
           />
           <div className={styles.cardIcon}>{card.icon}</div>
           <div className={styles.cardTitleAndIcon}>
             <div className={styles.cardTitle}>{card.title}</div>
-            <Link
-              to={`/departmanlar/${card.url}`}
-              className={styles.cardTitleIcon}>
-              <FaArrowRight />
-            </Link>
+            <div className={styles.cardTitleIconContainer}>
+              <Link
+                to={`/departmanlar/${card.url}`}
+                className={styles.cardTitleIcon}>
+                <FaArrowRight />
+              </Link>
+            </div>
           </div>
         </div>
       ))}

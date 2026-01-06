@@ -53,7 +53,7 @@
 }
 
 .cardTitleIcon {
-  font-size: 0.75rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   gap: var(--gap-md);

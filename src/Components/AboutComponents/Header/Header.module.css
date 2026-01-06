@@ -67,14 +67,14 @@
 }
 
 .line {
-  width: 30px;
+  width: 1rem;
   height: 1px;
   background-color: var(--primary-color);
 }
 
 .subTitle {
   color: var(--primary-color);
-  font-size: 0.75rem;
+  font-size: 1rem;
   letter-spacing: 2px;
 }
 
@@ -122,7 +122,7 @@
 
 .coloredText {
   color: var(--primary-color);
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -137,7 +137,9 @@
 }
 
 .image {
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius-md);
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
@@ -146,14 +148,21 @@
   }
   .mainContent {
     flex-direction: column;
+    padding: var(--padding-lg);
   }
   .mainContent::before,
   .mainContent::after {
     display: none;
   }
+  .line {
+    display: none;
+  }
   .title,
   .titleColoredText {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+  .leftSide {
+    gap: var(--gap-lg);
   }
   .numbersAndUs {
     gap: var(--gap-xxl);

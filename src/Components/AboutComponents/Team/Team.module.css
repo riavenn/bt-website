@@ -58,7 +58,7 @@
 .card:hover {
   box-shadow: var(--box-shadow-primary);
   transition: box-shadow 0.3s ease, transform 0.5s ease;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .card:hover .cardIcon {
@@ -84,6 +84,8 @@
 
 .cardImage {
   align-self: center;
+  width: 100%;
+  height: auto;
 }
 
 .cardIcon {
@@ -114,8 +116,13 @@
   width: 100%;
 }
 
+.cardTitleIconContainer {
+  display: flex;
+  align-items: center;
+}
+
 .cardTitleIcon {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   display: flex;
   align-items: center;
   z-index: 2;
@@ -133,11 +140,14 @@
   }
   .cardContainer {
     flex-direction: column;
-    gap: var(--gap-xxl);
+    gap: var(--gap-xl);
   }
   .card {
     height: auto;
     width: auto;
+  }
+  .cardImage {
+    width: 60%;
   }
   .description {
     text-align: center;

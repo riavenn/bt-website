@@ -17,7 +17,7 @@
 
 .description {
   color: var(--text-gray);
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .socialLinks {
@@ -63,7 +63,7 @@
   flex-direction: column;
   gap: var(--gap-lg);
   color: var(--text-gray);
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .row {
@@ -80,7 +80,7 @@
 }
 
 .text {
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--text-gray);
   display: flex;
   align-items: center;
