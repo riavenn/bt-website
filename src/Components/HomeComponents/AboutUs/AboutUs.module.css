@@ -46,7 +46,6 @@
   color: var(--text-gray);
   line-height: 1.625;
   font-size: 1rem;
-  text-align: justify;
 }
 
 .missionContainer {
@@ -84,7 +83,9 @@
 }
 
 .image {
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-md);
+  width: 100%;
+  height: auto;
 }
 
 .imageContainer::after {
@@ -135,8 +136,5 @@
 @media (min-width: 1024px) {
   .container {
     margin: var(--margin-container-sm);
-  }
-  .rightContent {
-    width: 100%;
   }
 }

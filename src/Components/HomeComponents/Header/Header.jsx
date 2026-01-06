@@ -96,8 +96,8 @@ function Header() {
               src={gameJamImage}
               className={styles.image}
               layout="constrained"
-              width={550}
-              height={550}
+              width={450}
+              height={450}
               alt="Akdeniz Game Jam'25"
             />
             <div className={styles.nextEventContainer}>

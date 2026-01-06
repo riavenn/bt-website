@@ -39,8 +39,8 @@ function AboutUs() {
           <Image
             src={ekip}
             layout="constrained"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             alt="Dijital Gençlik Hackathonu"
             className={styles.image}
           />

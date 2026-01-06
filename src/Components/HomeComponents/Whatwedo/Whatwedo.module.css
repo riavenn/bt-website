@@ -5,9 +5,10 @@
 .mainContent {
   gap: var(--gap-lg);
   padding: var(--padding-xl);
-  border-radius: var(--border-radius-xl);
   position: relative;
   overflow: hidden;
+  border-radius: calc(2 * var(--border-radius-md));
+  border: 1px solid rgb(31, 41, 55, 1);
 }
 
 .mainContent::before {
@@ -78,6 +79,7 @@
   }
   .mainContent {
     padding: var(--padding-lg);
+    border: none;
   }
   .mainContent::before,
   .mainContent::after {
