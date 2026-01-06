@@ -38,11 +38,18 @@
   .mainContent {
     gap: var(--gap-sm);
   }
+  .textContainer {
+    text-align: center;
+    gap: var(--gap-md);
+  }
   .title {
     font-size: 2rem;
   }
   .description {
     width: 100%;
+  }
+  .cardContainer {
+    margin-top: var(--margin-lg);
   }
 }
 

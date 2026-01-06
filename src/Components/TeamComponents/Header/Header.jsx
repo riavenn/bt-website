@@ -62,7 +62,9 @@ function Header() {
             birlikte üretiyoruz.
           </div>
         </div>
-        <Cards cardData={cardData} />
+        <div className={styles.cardContainer}>
+          <Cards cardData={cardData} />
+        </div>
       </div>
     </div>
   );
