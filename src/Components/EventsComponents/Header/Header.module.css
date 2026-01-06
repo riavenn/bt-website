@@ -118,7 +118,7 @@
   padding: var(--padding-md);
   border-radius: var(--border-radius-full);
   background-color: var(--brand-green);
-  width: 150px;
+  width: 100%;
 }
 
 .reservationButton {
