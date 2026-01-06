@@ -7,15 +7,17 @@ function TeamLayout() {
   return (
     <div className={styles.container}>
       <div className={styles.mainContent}>
-        <Link to={"/"} className={styles.logo}>
-          <Image
-            src={logo}
-            layout="constrained"
-            alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logo"
-            className={styles.image}
-            width={150}
-          />
-        </Link>
+        <div className={styles.logoWrapper}>
+          <Link to={"/"} className={styles.logo}>
+            <Image
+              src={logo}
+              layout="constrained"
+              alt="Akdeniz Üniversitesi Bilgisayar Topluluğu Logo"
+              className={styles.image}
+              width={100}
+            />
+          </Link>
+        </div>
         <div className={styles.outlet}>
           <Outlet />
         </div>

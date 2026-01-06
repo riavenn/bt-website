@@ -2,16 +2,39 @@
   background-color: var(--background-dark);
 }
 
-.mainContent{
+.mainContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.logo {
+.logoWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: var(--padding-lg);
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 100% !important;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  .image {
+    max-width: 100px;
+  }
 }

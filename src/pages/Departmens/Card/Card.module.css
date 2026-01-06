@@ -1,5 +1,7 @@
 .image {
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius-md);
+  width: 100%;
+  height: auto;
 }
 
 .card {

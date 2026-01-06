@@ -12,8 +12,8 @@ function Card({ avatar, userName, jobTitle }) {
               alt="Team Member"
               className={styles.image}
               layout="constrained"
-              width={450}
-              height={550}
+              width={300}
+              height={300}
             />
           </div>
           <div className={styles.cardTextContainer}>
