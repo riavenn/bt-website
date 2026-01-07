@@ -4,6 +4,7 @@
 
 .mainContent {
   display: flex;
+  align-items: center;
   gap: calc(2 * var(--gap-xl));
   background-color: var(--surface-dark);
   padding: var(--padding-xl);
@@ -128,7 +129,6 @@
 
 .rightSide {
   display: flex;
-  align-items: center;
 }
 
 .imageContainer {
@@ -173,9 +173,6 @@
   .container {
     margin: var(--margin-container-sm);
     margin-top: var(--margin-sm);
-  }
-  .imageContainer {
-    width: 500px;
   }
   .leftSide {
     gap: var(--gap-lg);

@@ -115,20 +115,30 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-lg);
-    margin-top: var(--margin-xl);
+    margin: var(--margin-xl);
   }
   .cardsContainer {
     flex-direction: column;
-    padding: var(--padding-md);
   }
   .title {
     font-size: 1.25rem;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-container-xs);
+  }
+  .cardsContainer {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1280px) {
   .container {
     margin: var(--margin-container-sm);
+  }
+  .cardsContainer {
+    flex-direction: row;
   }
 }

@@ -1,5 +1,5 @@
 import styles from "../Header/Header.module.css";
-import bilgisayarToplulugu from "../../../../public/images/bilgisayarToplulugu.jpg";
+import bilgisayarToplulugu from "../../../../public/images/bilgisayarToplulugu.webp";
 import { Image } from "@unpic/react";
 
 function Header() {
@@ -52,8 +52,8 @@ function Header() {
             <Image
               src={bilgisayarToplulugu}
               layout="constrained"
-              width={2000}
-              height={1500}
+              width={1920}
+              height={1440}
               alt="Akdeniz Üniversitesi Bilgisayar Topluluğu"
               className={styles.image}
             />

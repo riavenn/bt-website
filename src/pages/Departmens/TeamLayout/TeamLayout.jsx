@@ -1,5 +1,5 @@
 import styles from "../TeamLayout/TeamLayout.module.css";
-import logo from "../../../../public/images/logo.png";
+import logo from "../../../../public/images/logo.webp";
 import { Image } from "@unpic/react";
 import { Link, Outlet } from "react-router-dom";
 

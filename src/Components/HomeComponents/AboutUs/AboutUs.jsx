@@ -1,6 +1,6 @@
 import styles from "./AboutUs.module.css";
 import { FiTarget } from "react-icons/fi";
-import ekip from "../../../../public/images/ekip.jpg";
+import ekip from "../../../../public/images/ekip.webp";
 import { Image } from "@unpic/react";
 
 function AboutUs() {

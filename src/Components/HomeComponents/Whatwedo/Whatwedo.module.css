@@ -74,8 +74,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-lg);
-    margin-top: var(--margin-xl);
+    margin: var(--margin-xl);
   }
   .mainContent {
     padding: var(--padding-lg);
@@ -98,6 +97,16 @@
   .description {
     text-align: left;
     text-wrap-style: balance;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-container-xs);
+  }
+  .mainContent::before,
+  .mainContent::after {
+    display: none;
   }
 }
 

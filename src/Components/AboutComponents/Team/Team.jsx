@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineEventNote } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
-import logo from "../../../../public/images/logo.png";
+import logo from "../../../../public/images/logo.webp";
 import { Link } from "react-router-dom";
 import { Image } from "@unpic/react";
 

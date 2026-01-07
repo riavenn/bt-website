@@ -2,7 +2,7 @@ import styles from "../Header/Header.module.css";
 import { FaCircle, FaInfoCircle } from "react-icons/fa";
 import { LuCalendarPlus } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import internetHaftasi from "../../../../public/images/internetHaftasi.png";
+import internetHaftasi from "../../../../public/images/internetHaftasi.webp";
 import EventCountdown from "../../EventCountdown/EventCountdown";
 import { Image } from "@unpic/react";
 

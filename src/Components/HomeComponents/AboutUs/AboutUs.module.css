@@ -112,8 +112,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-lg);
-    margin-top: var(--margin-xl);
+    margin: var(--margin-xl);
   }
   .cardContent {
     flex-direction: column;
@@ -133,8 +132,26 @@
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-container-xs);
+  }
+  .cardContent {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     margin: var(--margin-container-sm);
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    margin: var(--margin-container-sm);
+  }
+  .cardContent {
+    flex-direction: row;
   }
 }

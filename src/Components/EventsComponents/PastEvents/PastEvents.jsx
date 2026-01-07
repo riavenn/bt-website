@@ -7,23 +7,23 @@ import {
   FaChevronRight,
 } from "react-icons/fa";
 
-import phytonEgitimi2 from "../../../../public/images/phytonEgitimi2.jpg";
-import phytonEgitimi from "../../../../public/images/phytonEgitimi.jpg";
-import ideathon2025 from "../../../../public/images/ideathon2025.jpg";
-import solanaEvent from "../../../../public/images/solanaEvent.jpg";
-import gamejam from "../../../../public/images/gamejam.jpg";
-import internetHaftasi2024 from "../../../../public/images/internetHaftasi2024.jpg";
-import akbankKampüs101 from "../../../../public/images/akbankKampüs101.jpg";
-import sekizMart from "../../../../public/images/sekizMart.jpg";
-import kaliteYönetimiCoffeeTalk from "../../../../public/images/kaliteYönetimiCoffeeTalk.jpg";
-import siberGüvenlikCoffeeTalk from "../../../../public/images/siberGüvenlikCoffeeTalk.jpg";
-import nearTürkiye from "../../../../public/images/nearTürkiye.jpg";
-import mikromobilite from "../../../../public/images/mikromobilite.jpg";
-import huaweiSummit from "../../../../public/images/huaweiSummit.jpg";
-import internetHaftasi2022 from "../../../../public/images/internetHaftasi2022.jpg";
-import girisimdeTasarimFinanstaYazilim from "../../../../public/images/girisimdeTasarimFinanstaYazilim.jpg";
-import publishMeGlobal from "../../../../public/images/publishMeGlobal.jpg";
-import sadiEvrenSeker from "../../../../public/images/sadiEvrenSeker.jpg";
+import phytonEgitimi2 from "../../../../public/images/phytonEgitimi2.webp";
+import phytonEgitimi from "../../../../public/images/phytonEgitimi.webp";
+import ideathon2025 from "../../../../public/images/ideathon2025.webp";
+import solanaEvent from "../../../../public/images/solanaEvent.webp";
+import gamejam from "../../../../public/images/gamejam.webp";
+import internetHaftasi2024 from "../../../../public/images/internetHaftasi2024.webp";
+import akbankKampüs101 from "../../../../public/images/akbankKampüs101.webp";
+import sekizMart from "../../../../public/images/sekizMart.webp";
+import kaliteYönetimiCoffeeTalk from "../../../../public/images/kaliteYönetimiCoffeeTalk.webp";
+import siberGüvenlikCoffeeTalk from "../../../../public/images/siberGüvenlikCoffeeTalk.webp";
+import nearTürkiye from "../../../../public/images/nearTürkiye.webp";
+import mikromobilite from "../../../../public/images/mikromobilite.webp";
+import huaweiSummit from "../../../../public/images/huaweiSummit.webp";
+import internetHaftasi2022 from "../../../../public/images/internetHaftasi2022.webp";
+import girisimdeTasarimFinanstaYazilim from "../../../../public/images/girisimdeTasarimFinanstaYazilim.webp";
+import publishMeGlobal from "../../../../public/images/publishMeGlobal.webp";
+import sadiEvrenSeker from "../../../../public/images/sadiEvrenSeker.webp";
 import { Image } from "@unpic/react";
 
 const cardData = [

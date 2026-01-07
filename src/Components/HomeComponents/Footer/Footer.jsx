@@ -1,5 +1,5 @@
 import styles from "../Footer/Footer.module.css";
-import logo from "../../../../public/images/logo.png";
+import logo from "../../../../public/images/logo.webp";
 import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaLocationDot } from "react-icons/fa6";

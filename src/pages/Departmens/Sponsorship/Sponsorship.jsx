@@ -3,8 +3,8 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
-import teamAvatar from "../../../../public/images/teamAvatar.jpg";
-import teamAvatar2 from "../../../../public/images/teamAvatar2.jpg";
+import teamAvatar from "../../../../public/images/teamAvatar.webp";
+import teamAvatar2 from "../../../../public/images/teamAvatar2.webp";
 
 function Sponsorship() {
   const cardData = [
