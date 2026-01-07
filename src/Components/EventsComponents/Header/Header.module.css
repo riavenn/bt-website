@@ -223,7 +223,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-lg);
+    margin: var(--margin-sm) var(--margin-xl);
   }
   .mainContent {
     flex-direction: column;
@@ -255,16 +255,12 @@
   .buttonsContainer {
     flex-direction: column;
   }
-  .reservationButton,
-  .detailsButton {
-    width: 90%;
-  }
   .eventDetailsContainer {
     gap: var(--margin-lg);
   }
   .rightSide {
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     margin-right: 0;
   }
 }
