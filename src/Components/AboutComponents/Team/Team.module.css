@@ -35,7 +35,8 @@
 }
 
 .cardContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: var(--gap-lg);
 }
 
@@ -138,7 +139,7 @@
     flex-direction: column;
   }
   .cardContainer {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
     gap: var(--gap-xl);
   }
   .card {
@@ -156,11 +157,23 @@
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-container-xs);
+  }
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     margin: var(--margin-container-sm);
   }
   .cardTitle {
     font-size: 1rem;
+  }
+  .cardContainer {
+    grid-template-columns: repeat(5, 1fr);
   }
 }

@@ -33,7 +33,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-xl);
+    margin: var(--margin-sm) var(--margin-xl);
   }
   .mainContent {
     gap: var(--gap-sm);
@@ -50,6 +50,16 @@
   }
   .cardContainer {
     margin-top: var(--margin-lg);
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-sm) var(--margin-xl);
+  }
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
   }
 }
 

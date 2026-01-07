@@ -74,6 +74,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-xl);
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     margin: var(--margin-container-sm);

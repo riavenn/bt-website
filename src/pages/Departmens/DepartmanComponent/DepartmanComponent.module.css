@@ -162,10 +162,25 @@
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-xxl);
+  }
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     margin: var(--margin-container-sm);
     margin-top: var(--margin-sm);
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cardContainer {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

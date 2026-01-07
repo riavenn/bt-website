@@ -170,6 +170,16 @@
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    margin: var(--margin-container-xs);
+  }
+  .mainContent::before,
+  .mainContent::after {
+    display: none;
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     margin: var(--margin-container-sm);
