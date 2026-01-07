@@ -102,6 +102,7 @@
   gap: var(--gap-md);
   justify-content: center;
   padding: var(--padding-lg);
+  padding-top: 0;
 }
 
 @media (max-width: 768px) {
