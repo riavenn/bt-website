@@ -59,6 +59,7 @@
   flex-direction: column;
   justify-content: center;
   gap: var(--gap-xl);
+  width: 100%;
 }
 
 .subTitleContainer {
