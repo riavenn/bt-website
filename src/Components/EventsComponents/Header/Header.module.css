@@ -223,7 +223,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-sm) var(--margin-xl);
+    margin: var(--margin-sm) var(--margin-lg);
   }
   .mainContent {
     flex-direction: column;
