@@ -4,6 +4,7 @@ import FeatureCards from "../../Components/HomeComponents/FeatureCards/FeatureCa
 import Footer from "../../Components/HomeComponents/Footer/Footer";
 import Header from "../../Components/HomeComponents/Header/Header";
 import Navbar from "../../Components/HomeComponents/Navbar/Navbar";
+import Partnerships from "../../Components/HomeComponents/Partnerships/Partnerships";
 import Whatwedo from "../../Components/HomeComponents/Whatwedo/Whatwedo";
 import styles from "../Home/Home.module.css";
 
@@ -28,6 +29,9 @@ function Home() {
         </div>
         <div className={styles.whatwedo}>
           <Whatwedo />
+        </div>
+        <div className={styles.partnerships}>
+          <Partnerships />
         </div>
         <div className={styles.footer}>
           <Footer />
