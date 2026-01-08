@@ -40,7 +40,6 @@
 
 .image {
   border-radius: var(--border-radius-lg);
-  /* object-fit: cover; */
   width: 125px;
   height: 100px;
 }

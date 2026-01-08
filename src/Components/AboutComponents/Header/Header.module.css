@@ -145,11 +145,14 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-sm) var(--margin-xl);
+    margin: var(--margin-sm) var(--margin-lg);
   }
   .mainContent {
     flex-direction: column;
     padding: var(--padding-lg);
+  }
+  .mainContent:hover {
+    box-shadow: var(--box-shadow-secondary);
   }
   .mainContent::before,
   .mainContent::after {
