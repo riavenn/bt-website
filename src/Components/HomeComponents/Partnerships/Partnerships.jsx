@@ -62,14 +62,16 @@ function Partnerships() {
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <div className={styles.title}>İş Birliği Yaptığımız Şirketler</div>
-        <div className={styles.description}>Etkinliklerimizde bize destek olan işbirlikçilerimiz.</div>
+        <div className={styles.description}>
+          Etkinliklerimizde bize destek olan işbirlikçilerimiz.
+        </div>
       </div>
       <div className={styles.mainContent}>
         <Marquee
           gradient={true}
           gradientColor=""
           gradientWidth="150px"
-          speed={75}
+          speed={50}
           pauseOnHover={true}>
           {logos.map((logo, index) => (
             <div className={styles.logoWrapper}>
