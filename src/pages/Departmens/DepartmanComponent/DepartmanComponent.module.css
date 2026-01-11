@@ -137,7 +137,7 @@
 
 @media (max-width: 768px) {
   .container {
-    width: calc(100% - var(--margin-xl));
+    /* width: calc(100% - var(--margin-xl)); */
     margin: var(--margin-xl);
     margin-bottom: 0;
   }
