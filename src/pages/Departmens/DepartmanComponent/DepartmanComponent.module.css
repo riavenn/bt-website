@@ -137,7 +137,8 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: var(--margin-lg);
+    width: calc(100% - var(--margin-xl));
+    margin: var(--margin-xl);
     margin-bottom: 0;
   }
   .textContainer {
@@ -147,15 +148,15 @@
     font-size: 1rem;
   }
   .title {
-    font-size: 2rem;
-    letter-spacing: 2px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
   }
   .description {
     font-size: 1rem;
     width: 100%;
   }
   .whatwedoDescription {
-    width: 90%;
+    width: 100%;
   }
   .cardContainer {
     grid-template-columns: repeat(1, 1fr);
