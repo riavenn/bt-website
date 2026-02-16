@@ -256,7 +256,7 @@
 
 @media (min-width: 1024px) {
   .container {
-    margin: var(--margin-container-sm);
+    margin: var(--margin-container-md);
     margin-top: var(--margin-sm);
   }
   .title {
