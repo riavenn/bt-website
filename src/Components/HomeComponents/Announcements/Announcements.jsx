@@ -4,6 +4,7 @@ import { CiCalendar } from "react-icons/ci";
 import yazilimTestUzmanligi from "../../../../public/images/yazilim-test-uzmanligi.webp";
 import tanismaEtkinligi from "../../../../public/images/tanisma-etkinligi.webp";
 import solanaEvent from "../../../../public/images/solanaEvent.webp";
+import internetHaftasi from "../../../../public/images/internetHaftasi.webp";
 import { Image } from "@unpic/react";
 
 function AnnouncementsCards() {
@@ -47,25 +48,32 @@ function AnnouncementsCards() {
 
 const cardData = [
   {
-    imageUrl: yazilimTestUzmanligi,
-    dateText: "24 Ekim 2023",
-    title: "Yazılım Test Uzmanlığı Eğitimi",
+    imageUrl: internetHaftasi,
+    dateText: "4 Nisan 2026",
+    title: "İnternet Haftası Özel Etkinliği",
     description:
-      "Yazılımda kalitenin mimarı olun! Topluluğumuzun Yazılım Test Uzmanlığı Eğitimi ile kariyerinizde yeni bir dönem başlıyor. Geleceği birlikte test edelim!",
-  },
-  {
-    imageUrl: tanismaEtkinligi,
-    dateText: "29 Eylül 2024",
-    title: "Güz Dönemi Tanışma Etkinliği",
-    description:
-      "Yeni üyelerimizle tanışmak ve dönemin yorgunluğunu atmak için kampüs ormanında buluşuyoruz.",
+      "4 Nisan'da İnternet Haftası’na özel; internetin farklı alanlarından uzman konuklar, ilham verici konuşmalar, sürpriz hediyeler ve networking fırsatları sizleri bekliyor!",
   },
   {
     imageUrl: solanaEvent,
     dateText: "25 Ekim 2025",
     title: "Solana Türkiye Antalya Buluşması",
     description:
-      "Solana Türkiye topluluğuyla buluş! Bu özel buluşmada hem Solana hakkında bilgi al hem de eğlenceli vakit geçir.",
+      "Solana Allstar Türkiye iş birliğiyle düzenlenen topluluk buluşmasında blockchain, Web3 ve Solana ekosistemi üzerine konuşuyor, sektörden isimlerle bir araya geliyoruz.",
+  },
+  {
+    imageUrl: tanismaEtkinligi,
+    dateText: "29 Eylül 2024",
+    title: "Güz Dönemi Tanışma Etkinliği",
+    description:
+      "Bilgisayar Topluluğu Sosyal Tanışma Etkinliği’nde yeni üyelerle tanışın, projeler hakkında sohbet edin ve topluluğumuzu daha yakından keşfedin.",
+  },
+  {
+    imageUrl: yazilimTestUzmanligi,
+    dateText: "24 Ekim 2023",
+    title: "Yazılım Test Uzmanlığı Eğitimi",
+    description:
+      "Yazılımda kalitenin mimarı olun! Topluluğumuzun Yazılım Test Uzmanlığı Eğitimi ile kariyerinizde yeni bir dönem başlıyor. Geleceği birlikte test edelim!",
   },
 ];
 
