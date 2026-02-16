@@ -79,9 +79,9 @@ function Partnerships() {
                 key={index}
                 src={logo.logoUrl}
                 layout="constrained"
-                width={125}
+                width={100}
                 height={100}
-                alt=""
+                alt={logo.logoUrl}
                 className={styles.image}
               />
             </div>
