@@ -6,10 +6,10 @@ import {
   FaCircle,
   FaCalendar,
 } from "react-icons/fa";
-import gameJamImage from "../../../../public/images/gamejam.webp";
 import avatar from "../../../../public/images/avatar.webp";
 import avatar2 from "../../../../public/images/avatar2.webp";
 import avatar3 from "../../../../public/images/avatar3.webp";
+import internetHaftasi from "../../../../public/images/internetHaftasi.webp";
 import { Image } from "@unpic/react";
 
 function Header() {
@@ -90,7 +90,7 @@ function Header() {
         <div className={styles.rightSide}>
           <div className={styles.imageContainer}>
             <Image
-              src={gameJamImage}
+              src={internetHaftasi}
               className={styles.image}
               layout="constrained"
               width={750}
@@ -103,7 +103,7 @@ function Header() {
               </div>
               <div className={styles.nextEventText}>
                 <span className={styles.coloredText}>SIRADAKİ ETKİNLİK</span>{" "}
-                <br /> Akdeniz Game Jam'26
+                <br /> İNTERNET HAFTASI ÖZEL ETKİNLİĞİ
               </div>
             </div>
           </div>
