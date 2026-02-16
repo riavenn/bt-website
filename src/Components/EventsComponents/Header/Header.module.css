@@ -283,6 +283,11 @@
     margin: var(--margin-container-sm);
     margin-top: var(--margin-sm);
   }
+  .mainContent {
+    flex-direction: row;
+    gap: var(--gap-md);
+    justify-content: space-around;
+  }
   .leftSide {
     margin-left: 0;
   }
@@ -290,16 +295,10 @@
     margin-right: 0;
   }
   .image {
-    width: 100%;
+    max-width: 550px;
     height: auto;
   }
   .title {
     font-size: 3rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .mainContent {
-    flex-direction: row;
   }
 }
