@@ -49,7 +49,7 @@ function Details() {
         <div className={styles.leftSide}>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/gameJam.webp"
+              src="images/gameJam.webp"
               layout="constrained"
               width={500}
               height={500}
