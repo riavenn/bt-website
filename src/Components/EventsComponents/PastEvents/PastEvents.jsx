@@ -11,7 +11,7 @@ import phytonEgitimi2 from "../../../../public/images/phytonEgitimi2.webp";
 import phytonEgitimi from "../../../../public/images/phytonEgitimi.webp";
 import ideathon2025 from "../../../../public/images/ideathon2025.webp";
 import solanaEvent from "../../../../public/images/solanaEvent.webp";
-import gamejam from "../../../../public/images/gamejam.webp";
+import gamejam from "../../../assets/gameJam.webp";
 import internetHaftasi2024 from "../../../../public/images/internetHaftasi2024.webp";
 import akbankKampüs101 from "../../../../public/images/akbankKampüs101.webp";
 import sekizMart from "../../../../public/images/sekizMart.webp";
