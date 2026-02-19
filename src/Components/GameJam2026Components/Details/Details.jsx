@@ -4,6 +4,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { IoCode } from "react-icons/io5";
 import { MdTimer } from "react-icons/md";
 import { MdAssessment } from "react-icons/md";
+import gameJamImage from "../../../assets/gameJam.webp";
 
 const Card = ({ icon, title, description }) => {
   return (
@@ -49,7 +50,7 @@ function Details() {
         <div className={styles.leftSide}>
           <div className={styles.imageContainer}>
             <Image
-              src="images/gameJam.webp"
+              src={gameJamImage}
               layout="constrained"
               width={500}
               height={500}
