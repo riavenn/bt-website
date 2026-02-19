@@ -205,6 +205,11 @@
   height: auto;
 }
 
+.eventCountdown{
+ display: flex;
+ justify-content: center;
+}
+
 @keyframes pulse-animation {
   0% {
     transform: scale(0.95);

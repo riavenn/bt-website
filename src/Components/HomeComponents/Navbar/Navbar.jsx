@@ -63,7 +63,14 @@ function Navbar() {
             }>
             Departmanlar
           </NavLink>
-
+          <NavLink
+            to="/akdenizgamejam2026"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? `${styles.navLink} ${styles.active}` : styles.navLink
+            }>
+            Game Jam 26'
+          </NavLink>
           <div className={styles.mobileJoinButton}>
             <Link to="http://mediko.akdeniz.edu.tr/topluluk/" target="_blank">
               <button className={styles.joinButton}>Katıl</button>

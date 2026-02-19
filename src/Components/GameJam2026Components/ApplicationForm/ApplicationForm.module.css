@@ -1,0 +1,62 @@
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.coloredTitle {
+  color: var(--primary-color);
+}
+
+.description {
+  color: var(--text-gray);
+  font-size: 1rem;
+}
+
+.linkContainer {
+  margin-bottom: var(--margin-xxl);
+}
+
+.link {
+  display: block;
+  color: white;
+  background-color: var(--secondary-color);
+  padding: var(--padding-md);
+  border-radius: var(--border-radius-md);
+  transition: background-color 0.5s ease;
+  font-weight: bold;
+}
+
+.link:hover {
+  background-color: var(--primary-color);
+  transition: background-color 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 var(--margin-xl);
+  }
+  .title{
+    font-size: 1.5rem;
+  }
+  .description{
+    text-align: center;
+  }
+  .textContainer{
+    gap: var(--gap-md);
+  }
+}

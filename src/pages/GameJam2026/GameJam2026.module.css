@@ -1,0 +1,18 @@
+.container {
+  background-color: var(--background-dark);
+  color: white;
+}
+
+.navbar {
+  padding: var(--padding-lg);
+}
+
+.details {
+  margin-top: calc(2 * var(--margin-xxl));
+}
+
+@media (max-width: 768px) {
+  .details {
+    margin-top: 0;
+  }
+}

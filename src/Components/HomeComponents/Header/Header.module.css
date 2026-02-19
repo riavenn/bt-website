@@ -13,13 +13,11 @@
 
 .notification {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--gap-md);
-  background-color: rgb(0 31 63 / 0.4);
   width: fit-content;
-  padding: var(--padding-md);
-  border-radius: var(--border-radius-full);
   text-align: center;
 }
 
@@ -27,6 +25,9 @@
   font-weight: bold;
   font-size: 1rem;
   color: rgb(191, 219, 254, 1);
+  background-color: rgb(0 31 63 / 0.4);
+  padding: var(--padding-md);
+  border-radius: var(--border-radius-full);
 }
 
 .title {

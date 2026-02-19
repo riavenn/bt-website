@@ -2,10 +2,12 @@
   display: flex;
   gap: var(--gap-lg);
   justify-content: center;
-  background-color: var(--brand-navy);
+  align-items: center;
+  border: 1px solid rgb(31, 41, 55, 1);
   border-radius: var(--border-radius-xl);
-  padding: var(--padding-sm);
-  box-shadow: var(--box-shadow-green);
+  padding: var(--padding-md);
+  width: fit-content;
+  box-shadow: var(--box-shadow-secondary);
 }
 
 .countdown {

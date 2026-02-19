@@ -1,0 +1,142 @@
+.mainContent {
+  margin-top: var(--margin-xxl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xxl);
+}
+
+.dateContainer {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: var(--padding-sm);
+  border-radius: var(--border-radius-xl);
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dateText {
+  font-size: 1rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-lg);
+}
+
+.title {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+}
+
+.coloredTitle {
+  display: block;
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: 1.5rem;
+  width: 30%;
+  text-align: center;
+  color: var(--text-gray);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-xxl);
+}
+
+.applyButtonContainer {
+  display: flex;
+  gap: var(--gap-md);
+  background-color: var(--primary-color);
+  padding: var(--padding-md);
+  border-radius: var(--border-radius-lg);
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.applyButtonContainer:hover {
+  background-color: var(--secondary-color);
+  transition: background-color 0.5s ease;
+}
+
+.applyButtonIcon {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.applyButtonText {
+  font-weight: bold;
+}
+
+.detailsContainer {
+  background-color: var(--surface-dark);
+  padding: var(--padding-md);
+  border-radius: var(--border-radius-lg);
+  color: white;
+}
+
+.divider {
+  margin-top: var(--margin-lg);
+  height: 2px;
+  width: 50%;
+  background-color: var(--text-gray);
+  opacity: 0.25;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.staticsContainer {
+  display: flex;
+  gap: calc(2 * var(--gap-xxl));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.static {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.coloredText {
+  display: block;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.eventCountdown {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+  .description {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .buttonContainer {
+    gap: var(--gap-lg);
+  }
+  .staticsContainer{
+    gap: var(--gap-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1440px) {
+}

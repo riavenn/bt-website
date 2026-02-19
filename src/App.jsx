@@ -11,6 +11,7 @@ import HumanResources from "./pages/Departmens/HumanResources/HumanResources";
 import Sponsorship from "./pages/Departmens/Sponsorship/Sponsorship";
 import TeamLayout from "./pages/Departmens/TeamLayout/TeamLayout";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+import GameJam2026 from "./pages/GameJam2026/GameJam2026";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/hakkimizda" element={<About />} />
         <Route path="/etkinlikler" element={<Events />} />
         <Route path="/departmanlar" element={<Team />} />
+        <Route path="/akdenizgamejam2026" element={<GameJam2026 />} />
 
         <Route path="/departmanlar" element={<TeamLayout />}>
           <Route

@@ -61,7 +61,9 @@ function Header() {
               layout="constrained"
             />
           </div>
-          <EventCountdown targetDate="2026-03-04T14:00:00" />
+          <div className={styles.eventCountdown}>
+            <EventCountdown targetDate="2026-03-04T14:00:00" />
+          </div>
         </div>
       </div>
     </div>

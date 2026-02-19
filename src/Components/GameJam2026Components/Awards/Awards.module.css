@@ -1,0 +1,111 @@
+.container {
+  margin: var(--margin-container);
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-lg);
+  margin: calc(3 * var(--margin-xxl)) 0;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.coloredTitle {
+  color: var(--primary-color);
+}
+
+.description {
+  color: var(--text-gray);
+}
+
+.awardCards {
+  display: flex;
+  gap: var(--gap-xxl);
+  margin-top: var(--margin-xxl);
+}
+
+.firstPlaceCard,
+.secondPlaceCard,
+.thirdPlaceCard {
+  background-color: var(--surface-dark);
+  padding: var(--padding-lg);
+  border-radius: var(--border-radius-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--box-shadow-primary);
+  border: 1px solid var(--text-orange);
+}
+
+.firstPlaceCard {
+  height: 300px;
+  width: 300px;
+  transform: translateY(-50px);
+  box-shadow: var(--box-shadow-primary);
+}
+
+.secondPlaceCard,
+.thirdPlaceCard {
+  height: 250px;
+  width: 300px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+}
+
+.prizeMoney {
+  color: var(--primary-color);
+}
+
+.awardsList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: var(--gap-sm);
+}
+
+.awardsList li {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--text-gray);
+}
+
+.award {
+  display: flex;
+  gap: var(--gap-md);
+}
+
+.awardIcon {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: var(--margin-sm) var(--margin-xl);
+  }
+  .mainContent {
+    margin: var(--margin-xxl) 0;
+  }
+  .awardCards {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .firstPlaceCard {
+    transform: translateY(0);
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+  .description {
+    text-align: center;
+  }
+}
