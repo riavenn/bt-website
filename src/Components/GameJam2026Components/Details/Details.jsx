@@ -1,5 +1,4 @@
 import styles from "../Details/Details.module.css";
-import gameJamImage from "../../../../public/images/gameJam.webp";
 import { Image } from "@unpic/react";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { IoCode } from "react-icons/io5";
@@ -50,7 +49,7 @@ function Details() {
         <div className={styles.leftSide}>
           <div className={styles.imageContainer}>
             <Image
-              src={gameJamImage}
+              src={"/images/gameJam.webp"}
               layout="constrained"
               width={500}
               height={500}
