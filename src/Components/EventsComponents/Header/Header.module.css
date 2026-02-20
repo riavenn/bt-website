@@ -308,7 +308,7 @@
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1280px) {
   .container {
     margin: var(--margin-container-md);
     margin-bottom: calc(3 * var(--margin-xxl));
