@@ -1,5 +1,5 @@
 .mainContent {
-  margin-top: var(--margin-xxl);
+  margin-top: var(--margin-lg);
   display: flex;
   flex-direction: column;
   gap: var(--gap-xxl);
