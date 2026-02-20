@@ -312,5 +312,13 @@
   .container {
     margin: var(--margin-container-md);
     margin-bottom: calc(3 * var(--margin-xxl));
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    margin: var(--margin-container-md);
+    margin-bottom: calc(3 * var(--margin-xxl));
   }
 }
