@@ -120,7 +120,7 @@
 }
 
 @media (max-width: 768px) {
-  .mainContent{
+  .mainContent {
     margin-top: 0;
   }
   .title {
@@ -133,13 +133,22 @@
   .buttonContainer {
     gap: var(--gap-lg);
   }
-  .staticsContainer{
+  .staticsContainer {
     gap: var(--gap-lg);
   }
 }
 
 @media (min-width: 1024px) {
+  .title {
+    font-size: 3rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1440px) {
+  .title{
+    font-size: 4rem;
+  }
 }
