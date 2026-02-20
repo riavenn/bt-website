@@ -1,5 +1,5 @@
 .container {
-  margin: var(--margin-container);
+  margin: var(--margin-container-md);
 }
 
 .mainContent {
@@ -112,5 +112,17 @@
   }
   .title {
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainContent {
+    gap: var(--gap-xxl);
+  }
+}
+
+@media(min-width: 1576px){
+  .container{
+    margin: var(--margin-container);
   }
 }
