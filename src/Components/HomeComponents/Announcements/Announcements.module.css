@@ -143,5 +143,12 @@
   }
   .cardsContainer {
     flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1600px){
+   .cardsContainer {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
