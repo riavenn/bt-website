@@ -205,9 +205,9 @@
   height: auto;
 }
 
-.eventCountdown{
- display: flex;
- justify-content: center;
+.eventCountdown {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes pulse-animation {
@@ -300,10 +300,17 @@
     margin-right: 0;
   }
   .image {
-    max-width: 550px;
+    max-width: 400px;
     height: auto;
   }
   .title {
     font-size: 3rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    margin: var(--margin-container-md);
+    margin-bottom: calc(3 * var(--margin-xxl));
   }
 }

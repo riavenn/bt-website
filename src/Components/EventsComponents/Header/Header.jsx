@@ -56,8 +56,8 @@ function Header() {
               src={internetHaftasi}
               alt="Akdeniz Üniversitesi İnternet Haftası Etkinliği'26"
               className={styles.image}
-              width={550}
-              height={550}
+              width={450}
+              height={450}
               layout="constrained"
             />
           </div>
