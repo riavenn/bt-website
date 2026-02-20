@@ -1,5 +1,5 @@
 .container {
-  margin: var(--margin-container-md);
+  margin: var(--margin-container-sm);
 }
 
 .mainContent {
