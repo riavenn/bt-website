@@ -6,42 +6,71 @@ import tanismaEtkinligi from "../../../../public/images/tanisma-etkinligi.webp";
 import solanaEvent from "../../../../public/images/solanaEvent.webp";
 import internetHaftasi from "../../../../public/images/internetHaftasi.webp";
 import { Image } from "@unpic/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 function AnnouncementsCards() {
   return (
-    <div className={styles.cardsContainer}>
-      {cardData.map((card, index) => (
-        <div key={index} className={styles.card}>
-          <div className={styles.cardTop}>
-            <Image
-              src={card.imageUrl}
-              className={styles.image}
-              layout="constrained"
-              width={250}
-              height={250}
-              alt={card.title}
-            />
-          </div>
-          <div className={styles.cardBottom}>
-            <div className={styles.date}>
-              <div className={styles.dateIcon}>
-                <CiCalendar />
+    <div className={styles.sliderWrapper}>
+      <Swiper
+        modules={[Navigation, Pagination]}
+        spaceBetween={20} // Kartlar arası boşluk
+        navigation // Sağ-sol okları aktif eder
+        pagination={{ clickable: true }} // Alt kısımdaki noktalar
+        breakpoints={{
+          // Mobil: 1 kart
+          0: {
+            slidesPerView: 1,
+          },
+          // Laptop: 3 kart (1024px ve üzeri)
+          1024: {
+            slidesPerView: 3,
+          },
+          // Masaüstü: 4 kart (1280px ve üzeri)
+          1280: {
+            slidesPerView: 3,
+          },
+        }}
+        className={styles.mySwiper}>
+        {cardData.map((card, index) => (
+          <SwiperSlide key={index}>
+            <div className={styles.card}>
+              <div className={styles.cardTop}>
+                <Image
+                  src={card.imageUrl}
+                  className={styles.image}
+                  layout="constrained"
+                  width={250}
+                  height={250}
+                  alt={card.title}
+                />
               </div>
-              <div className={styles.dateText}>{card.dateText}</div>
+              <div className={styles.cardBottom}>
+                <div className={styles.date}>
+                  <div className={styles.dateIcon}>
+                    <CiCalendar />
+                  </div>
+                  <div className={styles.dateText}>{card.dateText}</div>
+                </div>
+                <div className={styles.cardTitle}>{card.title}</div>
+                <div className={styles.cardDescription}>{card.description}</div>
+                <div className={styles.cardDetailsContainer}>
+                  <Link
+                    to={"https://instagram.com/btakdenizuni"}
+                    target="_blank"
+                    className={styles.cardDetails}>
+                    Detaylar
+                  </Link>
+                </div>
+              </div>
             </div>
-            <div className={styles.cardTitle}>{card.title}</div>
-            <div className={styles.cardDescription}>{card.description}</div>
-            <div className={styles.cardDetailsContainer}>
-              <Link
-                to={"https://instagram.com/btakdenizuni"}
-                target="_blank"
-                className={styles.cardDetails}>
-                Detaylar
-              </Link>
-            </div>
-          </div>
-        </div>
-      ))}
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 }

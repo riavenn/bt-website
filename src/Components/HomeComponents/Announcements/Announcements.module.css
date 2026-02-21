@@ -115,6 +115,21 @@
   transition: all 0.5s ease;
 }
 
+.sliderWrapper {
+  width: 100%;
+  position: relative;
+}
+
+:global(.swiper-button-next),
+:global(.swiper-button-prev) {
+  color: var(--primary-color);
+  transform: scale(0.7);
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background: var(--primary-color);
+}
+
 @media (max-width: 768px) {
   .container {
     margin: var(--margin-xl);
@@ -147,8 +162,8 @@
   }
 }
 
-@media (min-width: 1600px){
-   .cardsContainer {
+@media (min-width: 1600px) {
+  .cardsContainer {
     grid-template-columns: repeat(4, 1fr);
   }
 }
