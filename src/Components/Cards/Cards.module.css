@@ -38,8 +38,7 @@
   font-size: 1.5rem;
   color: white;
   border-radius: var(--border-radius-full);
-  /* background-color: var(--primary-color); */
-  background-color: yellow;
+  background-color: var(--primary-color);
   padding: var(--padding-sm);
   width: fit-content;
   transition: transform 0.5s ease;
