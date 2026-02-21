@@ -44,6 +44,13 @@
   transition: transform 0.5s ease;
 }
 
+@media (prefers-color-scheme: dark) {
+  .icon {
+    background-color: var(--primary-color);
+    filter: none !important;
+  }
+}
+
 .title {
   font-weight: bold;
   font-size: 1.25rem;
