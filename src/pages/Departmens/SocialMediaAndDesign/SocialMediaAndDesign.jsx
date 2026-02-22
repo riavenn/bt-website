@@ -7,6 +7,7 @@ import no_profile_image from "../../../../public/images/no_profile_image.webp";
 import eda_celik from "../../../../public/images/eda_celik.webp";
 import ozge_eren from "../../../../public/images/ozge_eren.webp";
 import ayse_gul_erol from "../../../../public/images/ayse_gul_erol.webp";
+import elif_kaya from "../../../../public/images/elif_kaya.webp";
 
 function SocialMediaAndDesign() {
   const cardData = [
@@ -47,7 +48,7 @@ function SocialMediaAndDesign() {
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: no_profile_image,
+      avatar: elif_kaya,
       userName: "Elif Kaya",
       jobTitle: "Departman üyesi",
     },

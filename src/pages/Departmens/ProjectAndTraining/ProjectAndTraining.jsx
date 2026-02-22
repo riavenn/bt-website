@@ -8,6 +8,7 @@ import ferhat_kaymaz from "../../../../public/images/ferhat_kaymaz.webp";
 import hasret_yolcu from "../../../../public/images/hasret_yolcu.webp";
 import ahmet_bugra_yalcin from "../../../../public/images/ahmet_bugra_yalcin.webp";
 import caner_kuscu from "../../../../public/images/caner_kuscu.webp";
+import onur_salkım from "../../../../public/images/onur_salkım.webp";
 import no_profile_image from "../../../../public/images/no_profile_image.webp";
 
 function ProjectAndTraining() {
@@ -64,7 +65,7 @@ function ProjectAndTraining() {
       jobTitle: "Departman Üyesi",
     },
     {
-      avatar: no_profile_image,
+      avatar: onur_salkım,
       userName: "Onur Salkım",
       jobTitle: "Departman Üyesi",
     },

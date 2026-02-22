@@ -5,7 +5,7 @@ import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
 import cetin_kalagan from "../../../../public/images/cetin_kalagan.webp";
 import ravza_kazak from "../../../../public/images/ravza_kazak.webp";
-import no_profile_image from "../../../../public/images/no_profile_image.webp";
+import serpil_ekin_karatas from "../../../../public/images/serpil_ekin_karatas.webp";
 
 function HumanResources() {
   const cardData = [
@@ -41,7 +41,7 @@ function HumanResources() {
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: no_profile_image,
+      avatar: serpil_ekin_karatas,
       userName: "Serpil Ekin Karataş",
       jobTitle: "Departman üyesi",
     },
