@@ -11,8 +11,8 @@ function Card({ avatar, userName, jobTitle }) {
               src={avatar}
               alt="Team Member"
               className={styles.image}
-              width={300}
-              height={300}
+              width={200}
+              height={200}
               priority={false}
             />
           </div>

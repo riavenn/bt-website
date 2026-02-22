@@ -137,7 +137,6 @@
 
 @media (max-width: 768px) {
   .container {
-    /* width: calc(100% - var(--margin-xl)); */
     margin: var(--margin-xl);
     margin-bottom: 0;
   }
@@ -183,5 +182,11 @@
 @media (min-width: 1280px) {
   .cardContainer {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1536px) {
+  .cardContainer {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
