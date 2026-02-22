@@ -118,7 +118,7 @@
 
 .cardContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: var(--gap-xl);
 }
 
@@ -182,6 +182,6 @@
 
 @media (min-width: 1280px) {
   .cardContainer {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }

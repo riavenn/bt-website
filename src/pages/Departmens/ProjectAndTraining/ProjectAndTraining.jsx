@@ -3,8 +3,12 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
-import teamAvatar from "../../../../public/images/teamAvatar.webp";
-import teamAvatar2 from "../../../../public/images/teamAvatar2.webp";
+import ahmet_ozdemir from "../../../../public/images/ahmet_ozdemir.webp";
+import ferhat_kaymaz from "../../../../public/images/ferhat_kaymaz.webp";
+import hasret_yolcu from "../../../../public/images/hasret_yolcu.webp";
+import ahmet_bugra_yalcin from "../../../../public/images/ahmet_bugra_yalcin.webp";
+import caner_kuscu from "../../../../public/images/caner_kuscu.webp";
+import no_profile_image from "../../../../public/images/no_profile_image.webp";
 
 function ProjectAndTraining() {
   const cardData = [
@@ -30,24 +34,39 @@ function ProjectAndTraining() {
 
   const teamData = [
     {
-      avatar: teamAvatar,
-      userName: "Mauro Icardi",
+      avatar: ferhat_kaymaz,
+      userName: "Ferhat Kaymaz",
       jobTitle: "Departman Koordinatörü",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Victor Osimhen",
-      jobTitle: "Departman üyesi",
+      avatar: ahmet_ozdemir,
+      userName: "Ahmet Özdemir",
+      jobTitle: "Departman Üyesi",
     },
     {
-      avatar: teamAvatar,
-      userName: "Lucas Torreria",
-      jobTitle: "Departman üyesi",
+      avatar: hasret_yolcu,
+      userName: "Hasret Yolcu",
+      jobTitle: "Departman Üyesi",
     },
     {
-      avatar: teamAvatar2,
+      avatar: ahmet_bugra_yalcin,
       userName: "Leroy Sané",
-      jobTitle: "Departman üyesi",
+      jobTitle: "Departman Üyesi",
+    },
+    {
+      avatar: no_profile_image,
+      userName: "Ceyda Sevim Ekici",
+      jobTitle: "Departman Üyesi",
+    },
+    {
+      avatar: caner_kuscu,
+      userName: "Caner Kuşçu",
+      jobTitle: "Departman Üyesi",
+    },
+    {
+      avatar: no_profile_image,
+      userName: "Onur Salkım",
+      jobTitle: "Departman Üyesi",
     },
   ];
 

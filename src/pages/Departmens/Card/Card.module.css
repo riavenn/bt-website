@@ -1,11 +1,35 @@
+.imageContainer {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: var(--border-radius-full);
+  background-color: #f0f0f0;
+
+  isolation: isolate;
+  position: relative;
+}
+
 .image {
-  border-radius: var(--border-radius-md);
+  object-fit: cover;
+  object-position: center;
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: block;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .card {
   display: flex;
   flex-direction: column;
   gap: var(--gap-md);
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName {
+  text-align: center;
 }

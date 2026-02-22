@@ -18,22 +18,13 @@ function AnnouncementsCards() {
     <div className={styles.sliderWrapper}>
       <Swiper
         modules={[Navigation, Pagination]}
-        spaceBetween={20} // Kartlar arası boşluk
-        navigation // Sağ-sol okları aktif eder
-        pagination={{ clickable: true }} // Alt kısımdaki noktalar
+        spaceBetween={20}
+        navigation={true}
+        pagination={{ clickable: true }}
         breakpoints={{
-          // Mobil: 1 kart
-          0: {
-            slidesPerView: 1,
-          },
-          // Laptop: 3 kart (1024px ve üzeri)
-          1024: {
-            slidesPerView: 3,
-          },
-          // Masaüstü: 4 kart (1280px ve üzeri)
-          1280: {
-            slidesPerView: 3,
-          },
+          0: { slidesPerView: 1 },
+          1024: { slidesPerView: 3 },
+          1280: { slidesPerView: 3 },
         }}
         className={styles.mySwiper}>
         {cardData.map((card, index) => (

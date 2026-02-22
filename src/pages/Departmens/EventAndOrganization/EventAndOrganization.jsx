@@ -3,8 +3,12 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
-import teamAvatar from "../../../../public/images/teamAvatar.webp";
-import teamAvatar2 from "../../../../public/images/teamAvatar2.webp";
+import no_profile_image from "../../../../public/images/no_profile_image.webp";
+import naz_hunerce from "../../../../public/images/naz_hunerce.webp";
+import ensar_yapar from "../../../../public/images/ensar_yapar.webp";
+import erkam_altay from "../../../../public/images/erkam_altay.webp";
+import ilknur_ozcomart from "../../../../public/images/ilknur_ozcomart.webp";
+import ceren_nerkiz from "../../../../public/images/ceren_nerkiz.webp";
 
 function EventAndOrganization() {
   const cardData = [
@@ -30,23 +34,38 @@ function EventAndOrganization() {
 
   const teamData = [
     {
-      avatar: teamAvatar,
-      userName: "Mauro Icardi",
+      avatar: naz_hunerce,
+      userName: "Naz Hünerçe",
       jobTitle: "Departman Koordinatörü",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Victor Osimhen",
+      avatar: ensar_yapar,
+      userName: "Ensar Yapar",
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: teamAvatar,
-      userName: "Lucas Torreria",
+      avatar: erkam_altay,
+      userName: "Erkam Altay",
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Leroy Sané",
+      avatar: ilknur_ozcomart,
+      userName: "İlknur Özcomart",
+      jobTitle: "Departman üyesi",
+    },
+    {
+      avatar: no_profile_image,
+      userName: "Rabia Yüksel",
+      jobTitle: "Departman üyesi",
+    },
+    {
+      avatar: no_profile_image,
+      userName: "Melisa Gençoğlu",
+      jobTitle: "Departman üyesi",
+    },
+    {
+      avatar: ceren_nerkiz,
+      userName: "Ceren Nerkiz",
       jobTitle: "Departman üyesi",
     },
   ];

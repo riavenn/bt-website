@@ -3,9 +3,10 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
-import teamAvatar from "../../../../public/images/teamAvatar.webp";
-import teamAvatar2 from "../../../../public/images/teamAvatar2.webp";
-
+import no_profile_image from "../../../../public/images/no_profile_image.webp";
+import eda_celik from "../../../../public/images/eda_celik.webp";
+import ozge_eren from "../../../../public/images/ozge_eren.webp";
+import ayse_gul_erol from "../../../../public/images/ayse_gul_erol.webp";
 
 function SocialMediaAndDesign() {
   const cardData = [
@@ -31,23 +32,28 @@ function SocialMediaAndDesign() {
 
   const teamData = [
     {
-      avatar: teamAvatar,
-      userName: "Mauro Icardi",
+      avatar: eda_celik,
+      userName: "Eda Çelik",
       jobTitle: "Departman Koordinatörü",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Victor Osimhen",
+      avatar: ozge_eren,
+      userName: "Özge Eren",
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: teamAvatar,
-      userName: "Lucas Torreria",
+      avatar: ayse_gul_erol,
+      userName: "Ayşe Gül Erol",
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Leroy Sané",
+      avatar: no_profile_image,
+      userName: "Elif Kaya",
+      jobTitle: "Departman üyesi",
+    },
+    {
+      avatar: no_profile_image,
+      userName: "Sinan Yakışan",
       jobTitle: "Departman üyesi",
     },
   ];

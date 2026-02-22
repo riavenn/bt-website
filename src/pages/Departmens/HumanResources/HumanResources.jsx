@@ -3,8 +3,9 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
-import teamAvatar from "../../../../public/images/teamAvatar.webp";
-import teamAvatar2 from "../../../../public/images/teamAvatar2.webp";
+import cetin_kalagan from "../../../../public/images/cetin_kalagan.webp";
+import ravza_kazak from "../../../../public/images/ravza_kazak.webp";
+import no_profile_image from "../../../../public/images/no_profile_image.webp";
 
 function HumanResources() {
   const cardData = [
@@ -30,23 +31,18 @@ function HumanResources() {
 
   const teamData = [
     {
-      avatar: teamAvatar,
-      userName: "Mauro Icardi",
+      avatar: cetin_kalagan,
+      userName: "Çetin Kalağan",
       jobTitle: "Departman Koordinatörü",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Victor Osimhen",
+      avatar: ravza_kazak,
+      userName: "Ravza Kazak",
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: teamAvatar,
-      userName: "Lucas Torreria",
-      jobTitle: "Departman üyesi",
-    },
-    {
-      avatar: teamAvatar2,
-      userName: "Leroy Sané",
+      avatar: no_profile_image,
+      userName: "Serpil Ekin Karataş",
       jobTitle: "Departman üyesi",
     },
   ];

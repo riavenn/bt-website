@@ -7,6 +7,14 @@ import Cards from "../../Cards/Cards";
 const cardData = [
   {
     icon: <FaPaintBrush />,
+    title: "Yönetim Kurulu",
+    description:
+      "Sosyal Medya ve Tasarım Departmanı, topluluğun dış dünyaya açılan penceresidir. Sadece estetik görseller hazırlamakla kalmaz, aynı zamanda AÜBT’nin kimliğini ve dijital varlığını inşa ederler.",
+    url: "yonetim-kurulu",
+    cardTitle: "Ekibi Görüntüle",
+  },
+  {
+    icon: <FaPaintBrush />,
     title: "Sosyal Medya ve Tasarım",
     description:
       "Sosyal Medya ve Tasarım Departmanı, topluluğun dış dünyaya açılan penceresidir. Sadece estetik görseller hazırlamakla kalmaz, aynı zamanda AÜBT’nin kimliğini ve dijital varlığını inşa ederler.",

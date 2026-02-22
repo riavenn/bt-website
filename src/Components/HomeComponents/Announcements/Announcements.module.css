@@ -115,19 +115,50 @@
   transition: all 0.5s ease;
 }
 
+/* Slider'ın dış kapsayıcısı */
 .sliderWrapper {
-  width: 100%;
   position: relative;
+  max-width: 1200px;
 }
 
-:global(.swiper-button-next),
-:global(.swiper-button-prev) {
-  color: var(--primary-color);
-  transform: scale(0.7);
+.mySwiper {
+  overflow: visible !important;
+  padding-bottom: 50px !important;
 }
 
-:global(.swiper-pagination-bullet-active) {
-  background: var(--primary-color);
+/* Navigasyon Okları - Renk ve Konum */
+.sliderWrapper :global(.swiper-button-next),
+.sliderWrapper :global(.swiper-button-prev) {
+  color: #ff4500 !important; /* İstediğin renk */
+  transition: opacity 0.3s ease;
+}
+
+.sliderWrapper :global(.swiper-button-next) {
+  right: -60px !important; /* Şimdi görünür olacak */
+}
+
+.sliderWrapper :global(.swiper-button-prev) {
+  left: -60px !important; /* Şimdi görünür olacak */
+}
+
+/* Okların boyutunu küçültmek istersen */
+.sliderWrapper :global(.swiper-button-next::after),
+.sliderWrapper :global(.swiper-button-prev::after) {
+  font-size: 24px !important;
+}
+
+/* Sayfalama Noktaları (Pagination) */
+.sliderWrapper :global(.swiper-pagination-bullet) {
+  background: #ccc !important;
+  opacity: 1;
+}
+
+.sliderWrapper :global(.swiper-pagination-bullet-active) {
+  background: #ff4500 !important; /* Aktif nokta rengi */
+}
+
+.sliderWrapper :global(.swiper-pagination) {
+  bottom: 0 !important; /* Konumu yukarı/aşağı çekmek için */
 }
 
 @media (max-width: 768px) {

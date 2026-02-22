@@ -3,8 +3,11 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
-import teamAvatar from "../../../../public/images/teamAvatar.webp";
-import teamAvatar2 from "../../../../public/images/teamAvatar2.webp";
+import melisa_yanar from "../../../../public/images/melisa_yanar.webp";
+import emre_can_tellal from "../../../../public/images/emre_can_tellal.webp";
+import safiye_sena_yigit from "../../../../public/images/safiye_sena_yigit.webp";
+import raziye_ates from "../../../../public/images/raziye_ates.webp";
+import mazlum_delibas from "../../../../public/images/mazlum_delibas.webp";
 
 function Sponsorship() {
   const cardData = [
@@ -30,23 +33,28 @@ function Sponsorship() {
 
   const teamData = [
     {
-      avatar: teamAvatar,
-      userName: "Mauro Icardi",
+      avatar: melisa_yanar,
+      userName: "Melisa Sıla Yanar",
       jobTitle: "Departman Koordinatörü",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Victor Osimhen",
+      avatar: emre_can_tellal,
+      userName: "Emre Can Tellal",
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: teamAvatar,
-      userName: "Lucas Torreria",
+      avatar: safiye_sena_yigit,
+      userName: "Safiye Sena Yiğit",
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: teamAvatar2,
-      userName: "Leroy Sané",
+      avatar: raziye_ates,
+      userName: "Raziye Ateş",
+      jobTitle: "Departman üyesi",
+    },
+    {
+      avatar: mazlum_delibas,
+      userName: "Mazlum Delibaş",
       jobTitle: "Departman üyesi",
     },
   ];
