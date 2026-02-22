@@ -42,7 +42,7 @@ function Header() {
           <div className={styles.eventDetailsContainer}>
             <div className={styles.dateContainer}>
               <div className={styles.dateText}>TARİH</div>
-              <div className={styles.date}>4 Nisan 2026</div>
+              <div className={styles.date}>14 Nisan 2026</div>
             </div>
             <div className={styles.locationContainer}>
               <div className={styles.locationText}>YER</div>
@@ -62,7 +62,7 @@ function Header() {
             />
           </div>
           <div className={styles.eventCountdown}>
-            <EventCountdown targetDate="2026-03-04T14:00:00" />
+            <EventCountdown targetDate="2026-04-14T14:00:00" />
           </div>
         </div>
       </div>
