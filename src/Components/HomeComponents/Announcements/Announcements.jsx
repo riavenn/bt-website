@@ -25,7 +25,7 @@ function AnnouncementsCards() {
         breakpoints={{
           0: { slidesPerView: 1 },
           1024: { slidesPerView: 3 },
-          1280: { slidesPerView: 4 },
+          1280: { slidesPerView: 3 },
         }}
         className={styles.mySwiper}>
         {cardData.map((card, index) => (
@@ -85,7 +85,7 @@ const cardData = [
   {
     imageUrl: solanaEvent,
     dateText: "25 Ekim 2025",
-    title: "Solana Türkiye Antalya Buluşması",
+    title: "Solana Türkiye Buluşması",
     description:
       "Solana Allstar Türkiye ile blockchain, Web3 ve Solana ekosistemini konuşuyoruz. Sektörden isimlerle buluşacağımız bu özel etkinliğe sen de davetlisin!",
   },
