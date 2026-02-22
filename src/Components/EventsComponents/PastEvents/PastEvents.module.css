@@ -134,6 +134,7 @@
 
 .pageBtn {
   background: white;
+  color: var(--secondary-color);
   border: none;
   padding: 10px;
   border-radius: 5px;
@@ -151,6 +152,7 @@
 .pageNumber {
   border: 1px solid rgb(31, 41, 55, 1);
   background: white;
+  color: var(--secondary-color);
   padding: 8px 15px;
   border-radius: 5px;
   cursor: pointer;
