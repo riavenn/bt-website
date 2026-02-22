@@ -14,46 +14,60 @@ import telpost from "../../../../public/images/telpost.webp";
 import akbank from "../../../../public/images/akbank.svg";
 import antgiad from "../../../../public/images/antgiad.svg";
 import { Image } from "@unpic/react";
+import { Link } from "react-router-dom";
 
 const logos = [
   {
     logoUrl: tornet,
+    url: "https://www.tornetteknoloji.com/",
   },
   {
     logoUrl: gez,
+    url: "https://gezmobility.com/",
   },
   {
     logoUrl: antalyapark,
+    url: "https://www.antalyapark.com.tr/",
   },
   {
     logoUrl: redbull,
+    url: "https://www.redbull.com/tr-tr",
   },
   {
     logoUrl: solana,
+    url: "https://solana.com/tr",
   },
   {
     logoUrl: gamfed,
+    url: "https://oyunlastirma.co/",
   },
   {
     logoUrl: gsb,
+    url: "https://gsb.gov.tr/",
   },
   {
     logoUrl: reeder,
+    url: "https://reeder.com.tr/",
   },
   {
     logoUrl: teraPortfoy,
+    url: "https://www.teraportfoy.com/",
   },
   {
     logoUrl: telePerformance,
+    url: "https://www.tp.com/en-us/",
   },
   {
     logoUrl: telpost,
+    url: "https://www.telpost.com.tr/",
   },
   {
     logoUrl: akbank,
+    url: "https://www.akbank.com/",
   },
   {
     logoUrl: antgiad,
+    url: "https://www.antgiad.org.tr/",
   },
 ];
 
@@ -74,7 +88,7 @@ function Partnerships() {
           speed={50}
           pauseOnHover={true}>
           {logos.map((logo, index) => (
-            <div className={styles.logoWrapper}>
+            <Link to={logo.url} target="_blank" className={styles.logoWrapper}>
               <Image
                 key={index}
                 src={logo.logoUrl}
@@ -84,7 +98,7 @@ function Partnerships() {
                 alt={logo.logoUrl}
                 className={styles.image}
               />
-            </div>
+            </Link>
           ))}
         </Marquee>
       </div>
