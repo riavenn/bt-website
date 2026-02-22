@@ -36,8 +36,8 @@ function AnnouncementsCards() {
                   src={card.imageUrl}
                   className={styles.image}
                   layout="constrained"
-                  width={250}
-                  height={250}
+                  width={300}
+                  height={300}
                   alt={card.title}
                 />
               </div>
