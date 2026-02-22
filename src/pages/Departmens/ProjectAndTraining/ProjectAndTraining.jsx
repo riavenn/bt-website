@@ -50,7 +50,7 @@ function ProjectAndTraining() {
     },
     {
       avatar: ahmet_bugra_yalcin,
-      userName: "Leroy Sané",
+      userName: "Ahmet Buğra Yalçın",
       jobTitle: "Departman Üyesi",
     },
     {
