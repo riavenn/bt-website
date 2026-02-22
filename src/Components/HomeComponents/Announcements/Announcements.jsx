@@ -5,6 +5,7 @@ import yazilimTestUzmanligi from "../../../../public/images/yazilim-test-uzmanli
 import tanismaEtkinligi from "../../../../public/images/tanisma-etkinligi.webp";
 import solanaEvent from "../../../../public/images/solanaEvent.webp";
 import internetHaftasi from "../../../../public/images/internetHaftasi.webp";
+import gameJam from "../../../assets/gameJam.webp";
 import { Image } from "@unpic/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
@@ -18,13 +19,13 @@ function AnnouncementsCards() {
     <div className={styles.sliderWrapper}>
       <Swiper
         modules={[Navigation, Pagination]}
-        spaceBetween={20}
+        spaceBetween={30}
         navigation={true}
-        pagination={{ clickable: true }}
+        // pagination={{ clickable: true }}
         breakpoints={{
           0: { slidesPerView: 1 },
           1024: { slidesPerView: 3 },
-          1280: { slidesPerView: 3 },
+          1280: { slidesPerView: 4 },
         }}
         className={styles.mySwiper}>
         {cardData.map((card, index) => (
@@ -68,18 +69,25 @@ function AnnouncementsCards() {
 
 const cardData = [
   {
+    imageUrl: gameJam,
+    dateText: "2-3-4 Mayıs 2026",
+    title: "Akdeniz Game Jam 2026",
+    description:
+      "Akdeniz Game Jam başlıyor! 2-3-4 Mayıs 2026 tarihlerinde Akdeniz Üniversitesi'nde buluşalım. Takımını kur, 48 saatte oyununu geliştir ve bu heyecana ortak ol.",
+  },
+  {
     imageUrl: internetHaftasi,
-    dateText: "4 Nisan 2026",
+    dateText: "14 Nisan 2026",
     title: "İnternet Haftası Özel Etkinliği",
     description:
-      "4 Nisan'da İnternet Haftası’na özel; internetin farklı alanlarından uzman konuklar, ilham verici konuşmalar, sürpriz hediyeler ve networking fırsatları sizleri bekliyor!",
+      "14 Nisan'da İnternet Haftası’na özel; internetin farklı alanlarından uzman konuklar, ilham verici konuşmalar, sürpriz hediyeler ve networking fırsatları sizleri bekliyor!",
   },
   {
     imageUrl: solanaEvent,
     dateText: "25 Ekim 2025",
     title: "Solana Türkiye Antalya Buluşması",
     description:
-      "Solana Allstar Türkiye iş birliğiyle düzenlenen topluluk buluşmasında blockchain, Web3 ve Solana ekosistemi üzerine konuşuyor, sektörden isimlerle bir araya geliyoruz.",
+      "Solana Allstar Türkiye ile blockchain, Web3 ve Solana ekosistemini konuşuyoruz. Sektörden isimlerle buluşacağımız bu özel etkinliğe sen de davetlisin!",
   },
   {
     imageUrl: tanismaEtkinligi,
