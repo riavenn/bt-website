@@ -18,27 +18,33 @@ const Card = ({ icon, title, description }) => {
 const cardData = [
   {
     icon: <FaPeopleGroup />,
-    title: "Takım Yapısı",
+    title: "Hızlı Üretim & Prototipleme",
     description:
-      "En az 2, en fazla 5 kişilik takımlar alinde katılabilirsin. Bireysel başvurular da kabul edilir.",
+      " Yazılım, tasarım ve ses disiplinlerini birleştirerek 48 saat içinde oynanabilir bir MVP (Minimum Uygulanabilir Ürün) ortayaçıkarmak.",
   },
   {
     icon: <IoCode />,
-    title: "Hazır Assetler",
+    title: "Mentorluk Köprüsü",
     description:
-      "Kendi kodunu ve tasarımlarını kullanmalısın. Ücretsiz hazır assetler kaynak belirtilerek kullanılabilir.",
+      "Sektör profesyonellerinden anlık teknik destek almak ve proje yönetimini deneyimlemek.",
   },
   {
     icon: <MdTimer />,
-    title: "Süre Sınırı",
+    title: "Hibrit Komünite",
     description:
-      "Oyun geliştirme süreci tema açıklandıktan sonra tam 48 saattir. Geç teslimler kabul edilmez.",
+      "Akdeniz Üniversitesi kampüsü ile Discord sunucusu arasındaki sınırı kaldırarak fiziksel ve online katılımcıları tek bir ekosistemde buluşturmak.",
   },
   {
     icon: <MdAssessment />,
-    title: "Değerlendirme",
+    title: "Sunum ve Kariyer",
     description:
-      "Oyunlar; oynanış, görsel tasarım, ses kullanımı ve temaya uygunluk kriterlerine göre jüri tarafından puanlanır.",
+      "Geliştirilen oyunları Itch.io üzerinden tüm dünyaya açmak ve jüri karşısında pitching (sunum) yaparak sektörel network kazanmak",
+  },
+  {
+    icon: <MdAssessment />,
+    title: "Kolektif Deneyim",
+    description:
+      "Puf alanları, ortak yemek seansları ve uykusuz geçen yaratıcı gecelerle gerçek bir takım ruhu inşa etmek.",
   },
 ];
 
@@ -51,11 +57,9 @@ function Details() {
             Kodla, Tasarla, <span className={styles.coloredTitle}>Yarat.</span>
           </div>
           <div className={styles.description}>
-            Akdeniz Game Jam, oyun geliştirme tutkunlarını bir araya getiren 48
-            saatlik bir etkinliktir. İster deneyimli bir geliştirici ol, ister
-            sektöre yeni adım atıyor ol; bu etkinlikte yeteneklerini sergileme,
-            yeni insanlarla tanışma ve unutulmaz bir deneyim yaşama şansı
-            bulacaksın.
+            Akdeniz Game Jam '26, katılımcıların kısıtlı bir sürede (48 saat),
+            belirlenen gizli bir tema çerçevesinde sıfırdan oyun geliştirdikleri
+            hibrit bir üretim maratonudur.
           </div>
           <div className={styles.cardContainer}>
             {cardData.map((card, index) => (
