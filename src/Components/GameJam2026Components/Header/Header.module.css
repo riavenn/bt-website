@@ -1,8 +1,33 @@
+.container {
+  margin: var(--margin-container);
+}
+
 .mainContent {
-  margin-top: var(--margin-lg);
+  margin-top: var(--margin-xxl);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightSide {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-xxl);
+  gap: var(--gap-xl);
+}
+
+.imageContainer {
+  box-shadow: var(--box-shadow-secondary);
+}
+
+.image {
+  border-radius: var(--border-radius-md);
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  max-height: 650px;
 }
 
 .dateContainer {
@@ -40,8 +65,7 @@
 }
 
 .description {
-  font-size: 1.5rem;
-  width: 30%;
+  font-size: 2rem;
   text-align: center;
   color: var(--text-gray);
 }
@@ -120,14 +144,22 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    margin: var(--margin-sm) var(--margin-xl);
+  }
   .mainContent {
     margin-top: 0;
+    flex-direction: column;
+    gap: var(--gap-xxl);
+  }
+  .image{
+    width: 100%;
+    height: 100%;
   }
   .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .description {
-    width: 80%;
     font-size: 1rem;
   }
   .buttonContainer {
@@ -135,6 +167,19 @@
   }
   .staticsContainer {
     gap: var(--gap-lg);
+  }
+  .static {
+    font-size: 1rem;
+  }
+  .buttonContainer {
+    flex-direction: column;
+  }
+  .applyButtonContainer,
+  .detailsContainer {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -148,7 +193,10 @@
 }
 
 @media (min-width: 1440px) {
-  .title{
+  .mainContent {
+    margin-top: 0;
+  }
+  .title {
     font-size: 4rem;
   }
 }

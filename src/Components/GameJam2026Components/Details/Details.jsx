@@ -4,7 +4,6 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { IoCode } from "react-icons/io5";
 import { MdTimer } from "react-icons/md";
 import { MdAssessment } from "react-icons/md";
-import gameJamImage from "../../../assets/gameJam.webp";
 
 const Card = ({ icon, title, description }) => {
   return (
@@ -47,18 +46,6 @@ function Details() {
   return (
     <div className={styles.container}>
       <div className={styles.mainContent}>
-        <div className={styles.leftSide}>
-          <div className={styles.imageContainer}>
-            <Image
-              src={gameJamImage}
-              layout="constrained"
-              width={500}
-              height={500}
-              alt="Akdeniz Game Jam"
-              className={styles.image}
-            />
-          </div>
-        </div>
         <div className={styles.rightSide}>
           <div className={styles.title}>
             Kodla, Tasarla, <span className={styles.coloredTitle}>Yarat.</span>
