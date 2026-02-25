@@ -10,7 +10,10 @@ function ApplicationForm() {
             Maceraya <span className={styles.coloredTitle}>Katıl</span>
           </div>
           <div className={styles.description}>
-            Kayıt formunu doldur ve yerini ayırt. Kontenjan sınırlı!
+            <span className={styles.coloredTitle}>Quest: Accepted</span>{" "}
+            sloganıyla çıktığımız bu yolda; kodların, tasarımların ve hayal
+            gücünün sınırlarını zorlayacağız. Kampüsün kalbinde, Girişimcilik ve
+            Kariyer Merkezi'nde bizimle sabahla!
           </div>
         </div>
 
@@ -21,7 +24,7 @@ function ApplicationForm() {
             }
             target="_blank"
             className={styles.link}>
-            Başvuru Formu
+            QUEST ACCEPTED
           </Link>
         </div>
       </div>
