@@ -17,7 +17,7 @@ function ApplicationForm() {
         <div className={styles.linkContainer}>
           <Link
             to={
-              "https://docs.google.com/forms/d/e/1FAIpQLScRk_zW8H6banrHtKtjfgtZ2GgS9uB34ddspkuXUTIRUqlIOQ/viewform?usp=header"
+              "https://docs.google.com/forms/d/e/1FAIpQLSd8uirC2tmx8pWoRASRIisXVyJQfqqBxQuBhnqZAaRMOA93qQ/viewform"
             }
             target="_blank"
             className={styles.link}>
