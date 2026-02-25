@@ -10,6 +10,7 @@ import erkam_altay from "../../../../public/images/erkam_altay.webp";
 import ilknur_ozcomart from "../../../../public/images/ilknur_ozcomart.webp";
 import ceren_nerkiz from "../../../../public/images/ceren_nerkiz.webp";
 import rabia_yuksel from "../../../../public/images/rabia_yuksel.webp";
+import melissa_gencoglu from "../../../../public/images/melissa_gencoglu.webp";
 
 function EventAndOrganization() {
   const cardData = [
@@ -60,7 +61,7 @@ function EventAndOrganization() {
       jobTitle: "Departman üyesi",
     },
     {
-      avatar: no_profile_image,
+      avatar: melissa_gencoglu,
       userName: "Melisa Gençoğlu",
       jobTitle: "Departman üyesi",
     },
