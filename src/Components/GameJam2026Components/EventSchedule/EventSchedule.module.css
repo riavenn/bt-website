@@ -10,12 +10,8 @@
   margin-bottom: calc(2 * var(--margin-xxl));
 }
 
-.title,
-.description {
-  text-align: center;
-}
-
 .title {
+  text-align: center;
   font-size: 3rem;
   font-weight: bold;
 }
@@ -25,17 +21,47 @@
 }
 
 .description {
-  color: var(--text-gray);
   font-size: 1rem;
+  text-align: center;
+  color: var(--text-gray);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+
+.articleRow {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-md);
+  font-size: 1rem;
+}
+
+.time {
+  color: var(--text-orange);
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.articleText {
+  color: var(--text-gray);
 }
 
 .divider {
   position: absolute;
   width: 1px;
-  height: 200px;
+  height: 100%;
   background: var(--text-orange);
   left: 25px;
-  top: 50px;
+  top: 0;
   z-index: 1;
 }
 
@@ -52,6 +78,11 @@
   justify-content: center;
   align-items: center;
   gap: var(--gap-lg);
+}
+
+.itemTitle {
+  font-weight: bold;
+  color: var(--text-orange);
 }
 
 .number {
@@ -90,18 +121,16 @@
   .divider {
     display: none;
   }
-  .itemsContainer{
+  .itemsContainer {
     margin-top: var(--margin-md);
   }
   .item {
     flex-direction: column;
   }
-  .textContainer {
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap-md);
-  }
   .itemTitle {
+    text-align: center;
+  }
+  .itemDescription{
     text-align: center;
   }
   .date {
@@ -109,5 +138,12 @@
   }
   .title {
     font-size: 1.5rem;
+  }
+  .articleRow {
+    align-items: center;
+    flex-direction: column;
+  }
+  .articleText{
+  text-align: center;
   }
 }
