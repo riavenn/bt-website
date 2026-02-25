@@ -87,6 +87,11 @@
   align-items: center;
 }
 
+.awardList{
+  font-size: 4rem;
+  color: var(--text-orange);
+}
+
 @media (max-width: 768px) {
   .container {
     margin: var(--margin-sm) var(--margin-xl);

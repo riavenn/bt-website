@@ -9,15 +9,15 @@ function Awards() {
           Büyük <span className={styles.coloredTitle}>Ödüller</span>
         </div>
         <div className={styles.description}>
-          Emeklerinin karşılığını al. İlk 3'e giren takımları harika teknoloji
-          ödülleri bekliyor.
+          Dereceye giren ekipleri bekleyen sürpriz ödüller tören günü
+          sahiplerini bulacak.
         </div>
         <div className={styles.awardCards}>
           <div className={styles.secondPlaceCard}>
             <div className={styles.cardTitle}>İkincilik</div>
-            <div className={styles.prizeMoney}>7.500 ₺</div>
+            {/* <div className={styles.prizeMoney}>????</div> */}
             <div className={styles.otherAwards}>
-              <ul className={styles.awardsList}>
+              {/* <ul className={styles.awardsList}>
                 <li className={styles.award}>
                   <i className={styles.awardIcon}>
                     <FaCheck />
@@ -36,14 +36,15 @@ function Awards() {
                   </i>
                   <div className={styles.awardText}>Sponsor Hediyeleri</div>
                 </li>
-              </ul>
+              </ul> */}
+              <div className={styles.awardList}>?</div>
             </div>
           </div>
           <div className={styles.firstPlaceCard}>
             <div className={styles.cardTitle}>Birincilik</div>
-            <div className={styles.prizeMoney}>15.000 ₺</div>
+            {/* <div className={styles.prizeMoney}>????</div> */}
             <div className={styles.otherAwards}>
-              <ul className={styles.awardsList}>
+              {/* <ul className={styles.awardsList}>
                 <li className={styles.award}>
                   <i className={styles.awardIcon}>
                     <FaCheck />
@@ -62,14 +63,15 @@ function Awards() {
                   </i>
                   <div className={styles.awardText}>Steam Yayın Desteği</div>
                 </li>
-              </ul>
+              </ul> */}
+              <div className={styles.awardList}>?</div>
             </div>
           </div>
           <div className={styles.thirdPlaceCard}>
             <div className={styles.cardTitle}>Üçüncülük</div>
-            <div className={styles.prizeMoney}>3.000 ₺</div>
+            {/* <div className={styles.prizeMoney}>????</div> */}
             <div className={styles.otherAwards}>
-              <ul className={styles.awardsList}>
+              {/* <ul className={styles.awardsList}>
                 <li className={styles.award}>
                   <i className={styles.awardIcon}>
                     <FaCheck />
@@ -88,7 +90,8 @@ function Awards() {
                   </i>
                   <div className={styles.awardText}>Sertifika</div>
                 </li>
-              </ul>
+              </ul> */}
+              <div className={styles.awardList}>?</div>
             </div>
           </div>
         </div>
