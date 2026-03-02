@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -40,6 +41,7 @@ function App() {
           <Route path="sponsorluk" element={<Sponsorship />} />
         </Route>
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
