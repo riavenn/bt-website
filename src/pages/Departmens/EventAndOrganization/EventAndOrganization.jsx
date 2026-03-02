@@ -6,7 +6,6 @@ import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
 import naz_hunerce from "../../../../public/images/naz_hunerce.webp";
 import ensar_yapar from "../../../../public/images/ensar_yapar.webp";
 import erkam_altay from "../../../../public/images/erkam_altay.webp";
-import ilknur_ozcomart from "../../../../public/images/ilknur_ozcomart.webp";
 import ceren_nerkiz from "../../../../public/images/ceren_nerkiz.webp";
 import rabia_yuksel from "../../../../public/images/rabia_yuksel.webp";
 import melissa_gencoglu from "../../../../public/images/melissa_gencoglu.webp";
@@ -47,11 +46,6 @@ function EventAndOrganization() {
     {
       avatar: erkam_altay,
       userName: "Erkam Altay",
-      jobTitle: "Departman üyesi",
-    },
-    {
-      avatar: ilknur_ozcomart,
-      userName: "İlknur Özcomart",
       jobTitle: "Departman üyesi",
     },
     {
