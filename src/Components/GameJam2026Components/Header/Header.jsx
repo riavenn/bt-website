@@ -16,7 +16,7 @@ function GameJam26() {
           <div className={styles.textContainer}>
             <div className={styles.title}>
               AKDENİZ <br />
-              GAME JAM<span className={styles.coloredTitle}>QUEST</span>
+              <span className={styles.coloredTitle}>GAME JAM</span>
             </div>
             <div className={styles.description}>
               48 Saat. Tek Tema. Sınırsız Yaratıcılık. Hayalindeki oyunu
