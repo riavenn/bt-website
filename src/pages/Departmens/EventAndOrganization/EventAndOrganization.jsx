@@ -3,7 +3,6 @@ import { FaPaintBrush } from "react-icons/fa";
 import { BsMegaphone } from "react-icons/bs";
 import { FiPenTool } from "react-icons/fi";
 import DepartmanComponent from "../DepartmanComponent/DepartmanComponent";
-import no_profile_image from "../../../../public/images/no_profile_image.webp";
 import naz_hunerce from "../../../../public/images/naz_hunerce.webp";
 import ensar_yapar from "../../../../public/images/ensar_yapar.webp";
 import erkam_altay from "../../../../public/images/erkam_altay.webp";
